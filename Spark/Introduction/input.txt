@@ -1,0 +1,4 @@
+people are not as beautiful as they look, 
+as they walk or as they talk.
+they are only as beautiful  as they love, 
+as they care as they share.

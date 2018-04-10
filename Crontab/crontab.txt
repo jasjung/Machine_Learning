@@ -1,0 +1,21 @@
+Source: https://ole.michelsen.dk/blog/schedule-jobs-with-crontab-on-mac-osx.html
+
+* * * * *  command to execute
+│ │ │ │ │
+│ │ │ │ └─── day of week (0 - 6) (0 to 6 are Sunday to Saturday, or use names; 7 is Sunday, the same as 0)
+│ │ │ └──────── month (1 - 12)
+│ │ └───────────── day of month (1 - 31)
+│ └────────────────── hour (0 - 23)
+└─────────────────────── min (0 - 59)
+
+# on your terminal 
+# to edit the file 
+crontab -e 
+
+# to view current cron jobs 
+crontab -l
+
+# place the following code into crontab file and change the time and file location as you wish. 
+
+39 15 * * * python /Users/[name]/Desktop/crontab.py >> /Users/[name]/Desktop/crontab_log.log 2>&1
+

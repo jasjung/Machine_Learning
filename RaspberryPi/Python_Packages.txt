@@ -1,0 +1,12 @@
+
+
+## PROJECT AMAZON DASH 
+# sending text message on computer 
+sudo pip install twilio
+# 
+sudo apt-get install scapy
+sudo apt-get install tcpdump
+
+#sudo apt-get install tcpdump tcpreplay python-scapy #wireshark
+
+#if pkt.haslayer(ARP):
