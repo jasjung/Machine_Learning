@@ -10,6 +10,7 @@
 - `less log.log`: fast way to view-only file. 
 - `tail -f log.log`: view live update of the log file. 
 
+
 ## Screen Function 
 - Source: https://linode.com/docs/networking/ssh/using-gnu-screen-to-manage-persistent-terminal-sessions/
 - type `screen` to start persistent terminal sessions 
@@ -45,6 +46,14 @@ rsync -azh $directory prod:/home/username/projects/
 ## Hadoop 
 - `hadoop fs -du -h`: folder size in human readable format 
 - `hdfs dfs -du -s -h /user/[user_name]`: find out how much data in the user's folder
+
+## Print 
+```
+# Python's print() equivalent in shell scripting is echo 
+echo 'hello world' 
+# prints hello world
+```
+
 
 ## Other Links 
 - https://unix.stackexchange.com/questions/159489/is-there-a-difference-between-and-and
