@@ -37,6 +37,8 @@ git gc --aggressive --prune=all     # remove the old files
 
 ## Useful links: 
 
-- Markdown tricks: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+- Markdown tricks: 
+	- https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+	- https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 - https://help.github.com/articles/ignoring-files/
 
