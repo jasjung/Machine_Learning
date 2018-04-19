@@ -46,6 +46,7 @@ rsync -azh $directory prod:/home/username/projects/
 ## Hadoop 
 - `hadoop fs -du -h`: folder size in human readable format 
 - `hdfs dfs -du -s -h /user/[user_name]`: find out how much data in the user's folder
+- `yarn application -kill [application_id]`: to kill your spark job
 
 ## Print 
 ```

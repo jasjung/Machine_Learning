@@ -36,7 +36,13 @@ sc =SparkContext()
 
 sc.parallelize(range(1000)).count()
 # out: 1000 
+
 ```
+
+- https://stackoverflow.com/questions/34601554/mac-spark-shell-error-initializing-sparkcontext?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+
+
+`sudo hostname -s 127.0.0.1`
 
 ## GraphFrame
 Reference: [Click Here](https://databricks.com/blog/2016/03/03/introducing-graphframes.html)
