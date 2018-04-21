@@ -48,3 +48,11 @@ sc.parallelize(range(1000)).count()
 Reference: [Click Here](https://databricks.com/blog/2016/03/03/introducing-graphframes.html)
 
 
+## Best Practices 
+
+### ReduceByKey vs GroupByKey
+Reference: [Click Here](//databricks.gitbooks.io/databricks-spark-knowledge-base/content/best_practices/prefer_reducebykey_over_groupbykey.html)
+
+```
+
+```
