@@ -9,7 +9,7 @@ Run the following command to create .gitignore_global file
 
 add the following into the .gitignore_global or .gitignore: 
 
-### OS generated files 
+### Examples 
 - .DS_Store
 - .DS_Store?
 - ._*
@@ -18,6 +18,7 @@ add the following into the .gitignore_global or .gitignore:
 - ehthumbs.db
 - Thumbs.db
 - .ipynb_checkpoints 
+- spark-warehouse*
 
 ## Git Ignore Local 
 ```

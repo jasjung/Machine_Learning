@@ -118,3 +118,13 @@ from table;
 concat_ws() 
 collect_list() 
 ```
+
+### Change Column Name 
+- [Reference](https://cwiki.apache.org/confluence/display/Hive/LanguageManual+DDL#LanguageManualDDL-ChangeColumnName/Type/Position/Comment)
+
+```
+CREATE TABLE test_change (a int, b int, c int);
+ 
+// First change column a's name to a1.
+ALTER TABLE test_change CHANGE a a1 INT;
+```
