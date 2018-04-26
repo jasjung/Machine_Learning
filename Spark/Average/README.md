@@ -1,0 +1,6 @@
+# Average 
+
+### Quick Code 
+```
+
+```
