@@ -22,6 +22,7 @@ Even though I learned R first, I began to document my learning when I started to
 ## Awesome Textbooks: 
 - Deep Learning: http://neuralnetworksanddeeplearning.com
 - Text Analytics: https://web.stanford.edu/~jurafsky/slp3/
+- Statistics and Machine Learning: http://www-bcf.usc.edu/~gareth/ISL/
 
 ## Random: 
 - If your notebook gives you error "IOPub data rate exceeded", try: 
