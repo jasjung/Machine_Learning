@@ -6,7 +6,7 @@
 
 To install Spark to your Mac: [Click Here](https://medium.com/@GalarnykMichael/install-spark-on-mac-pyspark-453f395f240b)
 
-You'll have to install Java JDK beforehand:[Click Here](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+You'll have to install Java JDK beforehand: [Click Here](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 - Check if Java is installed on mac: `javac -version`
 
@@ -52,7 +52,3 @@ Reference: [Click Here](https://databricks.com/blog/2016/03/03/introducing-graph
 
 ### ReduceByKey vs GroupByKey
 Reference: [Click Here](//databricks.gitbooks.io/databricks-spark-knowledge-base/content/best_practices/prefer_reducebykey_over_groupbykey.html)
-
-```
-
-```

@@ -55,7 +55,19 @@ echo 'hello world'
 # prints hello world
 ```
 
-
 ## Other Links 
 - https://unix.stackexchange.com/questions/159489/is-there-a-difference-between-and-and
 
+## Command Line Argument 
+
+- [credit](https://unix.stackexchange.com/questions/31414/how-can-i-pass-a-command-line-argument-into-a-shell-script?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
+
+```
+$ cat myscript
+#!/bin/bash
+echo "First arg: $1"
+echo "Second arg: $2"
+$ ./myscript hello world
+First arg: hello
+Second arg: world
+```
