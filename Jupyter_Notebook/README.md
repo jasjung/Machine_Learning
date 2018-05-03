@@ -18,3 +18,11 @@ reference: https://medium.com/@GalarnykMichael/install-spark-on-mac-pyspark-453f
 ## Random
 If your notebook gives you error "IOPub data rate exceeded", try: 
 `jupyter notebook --NotebookApp.iopub_data_rate_limit=1.0e10`
+
+## Images in Markdown 
+```
+<img src="images/image2.jpeg"  style="width:400px;">
+```
+
+
+
