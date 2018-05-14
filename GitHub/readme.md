@@ -42,3 +42,7 @@ git gc --aggressive --prune=all     # remove the old files
 	- https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 - https://help.github.com/articles/ignoring-files/
 
+## Make Your Website 
+```
+https://pages.github.com
+```
