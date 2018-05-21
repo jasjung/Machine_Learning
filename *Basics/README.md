@@ -27,6 +27,8 @@ datetime(2018, 1, 7)
 ### Any rows with NAN
 ```
 df[df.isnull().any(axis=1)]
+
+df.isnull().sum()
 ```
 
 ### List subtraction 
@@ -43,4 +45,9 @@ https://stackoverflow.com/questions/33279940/how-to-combine-multiple-rows-of-str
 
 ```
 df.[column name].(sep=',')
+```
+
+### drop cols with low var/std
+```
+df.loc[:, df.std() > .3]
 ```
