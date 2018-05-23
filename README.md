@@ -1,6 +1,7 @@
 # Python
 
 ![license](https://img.shields.io/github/license/mashape/apistatus.svg)
+
 ![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)
 
 All codes and learnings related to coding, machine learning, data science, and everything else I feel like adding. I continuously update this repository to document my learnings for future references. Otherwise noted, I mostly use Python 3 on MacOS. 
