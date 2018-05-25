@@ -19,6 +19,7 @@ hello = tf.constant('Hello, TensorFlow!')
 sess = tf.Session()
 print(sess.run(hello))
 ```
+Because I am using Jupyter Notebook installed from Anaconda, I had to `conda install -c conda-forge tensorflow` to update tensorflow. I am still experimenting and learning how to set it up properly. 
 
 ### Keras 
 https://keras.io
