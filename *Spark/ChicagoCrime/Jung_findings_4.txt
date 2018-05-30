@@ -1,0 +1,11 @@
+# Q4 findings 
+
+## time of the day 
+- Arrest rates seem to be low in the morning around 7am when police officers are sleeping, in the lunch time at 12pm when they are eating, and also at 5pm during the dinner time. 
+Arrest rates are high right around 11am and 8pm. On average, arrest rates are higher in PM than AM. 
+
+## day of the week 
+- Arrest rates are higher from Tuesday to Thursday. This may be because police officers are most active during the weekdays when they are at work. The arrest rates are lower from Friday to Sunday possibly because they are not at work. The rate is still low on Monday because they miss their weekends. 
+
+## month of the year 
+- Arrest rates are highest during the winter time and decreases in summer. It seems like arrest rate is inversely correlated with the temperature. Higher the temperature lower the arrest rate. It could be because there are more crimes in the summer so there are not enough police officers to arrest everyone. 

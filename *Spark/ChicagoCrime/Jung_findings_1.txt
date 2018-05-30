@@ -1,0 +1,6 @@
+# Q1 findings 
+
+On average, there are most crimes from June to October, with most crimes in July. Also, there is least amount of crimes in February on average. This is reasonable because during the winter time, people are usually too cold and probably would not outside to commit crimes. It is no coincidence that there are least amount of crimes in February, which is the coldest month. Also, there are most crimes in the summer time sadly because the weather is good for more crimes. More people would be outside and the criminals are not deterred by the harsh weather. 
+
+
+

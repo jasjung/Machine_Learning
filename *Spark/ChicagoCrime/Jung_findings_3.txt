@@ -1,0 +1,6 @@
+# 3 Findings 
+
+External Data: daily temperature in celsius and humidity in O'Hare area from 2005 to 2017.  This was the data that covered most dates that I could find. Then I computed the weekly average for temperature and humidity and joined them with the crimes data. It was from https://rp5.ru/Weather_archive_in_Chicago,_O'Hare_(airport). 
+
+Accuracy is reported in the output file. 
+

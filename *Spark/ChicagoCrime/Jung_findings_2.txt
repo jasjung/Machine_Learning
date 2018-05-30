@@ -1,0 +1,12 @@
+# 2.1 Findings 
+- Please see the output for top 10 blocks 
+
+# 2.2 Findings
+- In Jung_2.2.txt file, you can see top 20 beat pairs with highest correlations. 
+There are a lot of beats with very high correlations that are greater than 0.99. 
+The Chicago Police District map provided in the instruction turned out to be incomplete, as it does not include all districts and beats. I noticed this because I could not locate my most correlated beats in that map. Thus, when I found separate district 21 map, I discovered beat 2132 and 2133 were adjacent and very highly correlated. Please refer to the "Jung_2.2_District 21 Beat 2132 and 2133 Map.png" for the reference on the map. 
+
+Link to the Distrct21 Map: http://chicagocop.com/resources/documents_archive/maps/districts/021%20-%20Prarie%20-%202007,%20July.pdf
+
+# 2.3 Findings
+- T-test of monthly average crimes in the district level between Emanuel and Daley was -5.35. Because the t-statistics is greater than -1.960 at 5% confidence level, we reject the hypothesis that the number of crime events is not different between the two majors. However, we must note that the result could be different depending on our granularities like time. The negative t-test value suggests that there are fewer crimes during Emanuel's office than Daley's. This could be because the economy has been improving since 2011. Daley's term included the time of housing market crisis, which could cause a lot of people to be in despair and commit crimes. 
