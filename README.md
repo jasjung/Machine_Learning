@@ -15,18 +15,19 @@ Even though I learned R first, I began to document my learning when I started to
 - **Amazon Dash Hack**: (to be uploaded)
 
 ## Go Learn  
-- **Python Basics**: http://cs231n.github.io/python-numpy-tutorial/ 
-- **Reinforecement Learning**: https://gym.openai.com
-- **Computer Vision**: Stanford CS231n  
-- **Deep Learning**: deeplearning.ai
-- **Machine Learning**: [Google crash course](https://developers.google.com/machine-learning/crash-course/ml-intro)
+- **Python Basics**:[Stanford CS231n - Python](http://cs231n.github.io/python-numpy-tutorial/)
+- **Reinforecement Learning**: [OpenAI](https://gym.openai.com)
+- **Computer Vision**: [Stanford CS231n](http://cs231n.stanford.edu)
+- **Deep Learning**: [deeplearning.ai](https://deeplearning.ai)
+- **Machine Learning**: [Google Crash Course](https://developers.google.com/machine-learning/crash-course/ml-intro)
+- **TensorFlow**: [Hvass-Labs Tutorial](https://github.com/Hvass-Labs/TensorFlow-Tutorials)
 
-## Awesome Videos
+## Go Watch
 - **MarI/O**: https://www.youtube.com/watch?v=qv6UVOQ0F44&t=1s
 - **MarioFlow**: https://www.youtube.com/watch?v=Ipi40cb_RsI
 - **AlphaGo Zero**: https://www.youtube.com/watch?v=tXlM99xPQC8
 
-## Awesome Textbooks
+## Go Read
 - **Deep Learning**: http://neuralnetworksanddeeplearning.com
 - **Text Analytics**: https://web.stanford.edu/~jurafsky/slp3/
 - **Statistics and Machine Learning**: http://www-bcf.usc.edu/~gareth/ISL/
