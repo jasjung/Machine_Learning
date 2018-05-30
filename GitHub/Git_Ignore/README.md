@@ -2,25 +2,32 @@
 # Git Ignore
 Source: https://help.github.com/articles/ignoring-files/
 
+## Global 
+
 Run the following command to create .gitignore_global file 
 
-- git config --global core.excludesfile ~/.gitignore_global
-- vi .gitignore_global
+```
+git config --global core.excludesfile ~/.gitignore_global
+
+vi .gitignore_global
+```
 
 add the following into the .gitignore_global or .gitignore: 
 
 ### Examples 
-- .DS_Store
-- .DS_Store?
-- ._*
-- .Spotlight-V100
-- .Trashes
-- ehthumbs.db
-- Thumbs.db
-- .ipynb_checkpoints 
-- spark-warehouse*
+```
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.ipynb_checkpoints 
+spark-warehouse*
 
-## Git Ignore Local 
+```
+## Local 
 ```
 touch .gitignore
 vi .gitignore
