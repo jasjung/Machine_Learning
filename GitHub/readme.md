@@ -47,11 +47,18 @@ git gc --aggressive --prune=all     # remove the old files
 https://pages.github.com
 ```
 
-## Uploading Large File 
+## Removing Large File Cache from Commit History 
 
 When you try to upload a large file, you will fail to push. Even after you delete those files, you will still not be able to push because those large files are cached in history. The following is a way to remove them. 
 
-[Reference](https://stackoverflow.com/questions/19573031/cant-push-to-github-because-of-large-file-which-i-already-deleted?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
+[Reference](https://stackoverflow.com/questions/2100907/how-to-remove-delete-a-large-file-from-commit-history-in-git-repository)
+
+```
+git filter-branch --tree-filter 'rm -f file/location' HEAD
+```
+
+[Reference2](https://stackoverflow.com/questions/19573031/cant-push-to-github-because-of-large-file-which-i-already-deleted?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
+
 
 ```
 git filter-branch --index-filter 'git rm -r --cached --ignore-unmatch <file/dir>' HEAD
@@ -61,3 +68,20 @@ git filter-branch --index-filter 'git rm -r --cached --ignore-unmatch <file/dir>
 
 # replace <file/dir> with your file's location 
 ```
+
+## Branching
+```
+git clheckout -b my_branch # -b if the new branch does not exist
+# do your dev work
+git add .
+git commit -m 'yo'
+git push origin my_branch
+# review pull requests on github.com
+```
+
+### Merge branch from terminal 
+coming soon 
+```
+
+```
+

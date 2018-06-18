@@ -9,7 +9,7 @@
 - `wc -l input.csv`: count number of lines.
 - `less log.log`: fast way to view-only file. 
 - `tail -f log.log`: view live update of the log file. 
-
+- `ls -l --block-size=G`: view file size 
 
 ## Screen Function 
 - Source: https://linode.com/docs/networking/ssh/using-gnu-screen-to-manage-persistent-terminal-sessions/
@@ -70,4 +70,18 @@ echo "Second arg: $2"
 $ ./myscript hello world
 First arg: hello
 Second arg: world
+```
+
+# MacOS 
+## Clear History 
+
+```
+# Remove current histry
+history -c
+
+# Clear all bash history
+rm ~/.bash_history
+
+# Open the history file
+open ~/.bash_history
 ```

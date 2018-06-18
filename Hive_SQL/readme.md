@@ -11,7 +11,7 @@ select t1.*, t2.`(shopper_id)?+.+` from t1,t2 ;
 ```
 
 ## Basics 
-### Create table 
+### Drop or Create table 
 ```
 # use orc or parquet 
 
@@ -29,6 +29,9 @@ ALTER TABLE user.old_name RENAME TO user.new_name;
 ```
 # use -f to run hive file 
 hive -e "select * from table;" > output.txt
+
+# with column name 
+hive -e "set hive.cli.print.header=true; select * from table;" > output.txt
 ```
 
 ### Show Column Names in Hive Command Line 

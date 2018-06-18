@@ -13,6 +13,8 @@ elif arg_num > 1:
 	print('there are %d arguments ' % (arg_num-1))
 	print(sys.argv)
 
+	print('first argument is:', sys.argv[1])
+
 	# how to combine all arguments without quotations 
 	one_string = " ".join(sys.argv[1:])
 	print(one_string)
