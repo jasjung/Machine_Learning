@@ -9,12 +9,13 @@ https://www.tensorflow.org/install/install_mac
 sudo easy_install --upgrade pip
 sudo easy_install --upgrade six
 
-
 pip3 install tensorflow
 # pip3 uninstall tensorflow 
 
 pip3 install tensorflow-gpu
+```
 
+```py
 ## Testing 
 # python
 import tensorflow as tf
@@ -37,7 +38,9 @@ sudo pip install keras
 
 ```
 sudo pip install h5py
+```
 
+```py
 from keras.models import load_model
 
 model.save('my_model.h5')  # creates a HDF5 file 'my_model.h5'
