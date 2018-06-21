@@ -9,8 +9,11 @@ https://www.tensorflow.org/install/install_mac
 sudo easy_install --upgrade pip
 sudo easy_install --upgrade six
 
+
 pip3 install tensorflow
 # pip3 uninstall tensorflow 
+
+pip3 install tensorflow-gpu
 
 ## Testing 
 # python

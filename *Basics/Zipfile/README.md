@@ -5,7 +5,7 @@ It is unnecessary to upload raw csv files to github. Thus, let's compress them a
 ```
 import zipfile 
 
-zip = zipfile.ZipFile('data.csv.zip', 'r')
-df = pd.read_csv(zip.open('data.csv'))
+zip_file = zipfile.ZipFile('data.csv.zip', 'r')
+df = pd.read_csv(zip_file.open('data.csv'))
 ```
 
