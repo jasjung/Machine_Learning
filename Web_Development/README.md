@@ -36,3 +36,7 @@ jekyll serve --watch
 
 ## Github Pages 
 - https://pages.github.com 
+
+
+## Google Analytics 
+Reference: https://stackoverflow.com/questions/17207458/how-to-add-google-analytics-tracking-id-to-github-pages
