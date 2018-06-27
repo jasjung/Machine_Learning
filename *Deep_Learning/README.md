@@ -50,3 +50,16 @@ del model  # deletes the existing model
 # identical to the previous one
 model = load_model('my_model.h5')
 ```
+
+## GPU or CPU Check 
+Run either codes below to see if your Keras or Tensorflow is running GPU.  
+
+```
+from tensorflow.python.client import device_lib
+print(device_lib.list_local_devices())
+```
+
+```
+from keras import backend as K
+K.tensorflow_backend._get_available_gpus()
+```

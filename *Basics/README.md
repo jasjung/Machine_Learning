@@ -51,3 +51,8 @@ df.[column name].(sep=',')
 ```py
 df.loc[:, df.std() > .3]
 ```
+
+### Shuffle Pandas DataFrame 
+```
+df.sample(frac=1)
+```
