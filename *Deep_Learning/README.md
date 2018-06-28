@@ -63,3 +63,7 @@ print(device_lib.list_local_devices())
 from keras import backend as K
 K.tensorflow_backend._get_available_gpus()
 ```
+
+## ImageAI
+A Python Package for Computer Vision 
+https://github.com/OlafenwaMoses/ImageAI
