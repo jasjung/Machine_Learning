@@ -176,3 +176,20 @@ assembler = VectorAssembler(
 df = assembler.transform(df)
 df.select('features').show(1)
 ```
+
+## Show Null
+
+```
+# col a 
+df.where(df.a.isNull()).count()
+```
+
+```
+# print out which column has null 
+for col in df.columns:
+    print(col)
+    count = df.where(df[col].isNull()).count() 
+    if count >0:
+        print("winner:",col,count)
+
+```
