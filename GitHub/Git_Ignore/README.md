@@ -25,7 +25,11 @@ ehthumbs.db
 Thumbs.db
 .ipynb_checkpoints 
 spark-warehouse*
-
+.Rapp.history
+.Rhistory
+__pycache__
+*.pyc
+*.RData
 ```
 ## Local 
 ```

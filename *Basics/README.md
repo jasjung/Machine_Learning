@@ -31,6 +31,13 @@ df[df.isnull().any(axis=1)]
 df.isnull().sum()
 ```
 
+### Drop Null 
+https://pandas.pydata.org/pandas-docs/version/0.21/generated/pandas.DataFrame.dropna.html
+```
+# drop rows if it has any nulls 
+df.dropna(axis=0, how='any')
+```
+
 ### List subtraction 
 https://stackoverflow.com/questions/3462143/get-difference-between-two-lists
 

@@ -24,5 +24,8 @@ If your notebook gives you error "IOPub data rate exceeded", try:
 <img src="images/image2.jpeg"  style="width:400px;">
 ```
 
-
-
+## Red Font 
+```
+<span style="color:red">some **This is Red Bold.** text</span>
+```
+[Reference](https://stackoverflow.com/questions/35465557/how-to-apply-color-in-markdown)

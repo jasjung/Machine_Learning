@@ -131,3 +131,36 @@ CREATE TABLE test_change (a int, b int, c int);
 // First change column a's name to a1.
 ALTER TABLE test_change CHANGE a a1 INT;
 ```
+
+
+### Creating a Table with Schema 
+
+```sql 
+drop table if exists user_name.table_name;
+CREATE TABLE `user_name.table_name`(
+  `col1` string,
+  `col2` string,
+  `col3` float,
+  `col4` float)
+PARTITIONED BY (
+  `col5` string,
+  `col6` string)
+ROW FORMAT DELIMITED
+  FIELDS TERMINATED BY '|'
+ ;
+
+```
+
+### Hive Config 
+https://stackoverflow.com/questions/8762064/hive-unable-to-manually-set-number-of-reducers
+
+```
+<property>
+   <name>hive.exec.reducers.bytes.per.reducer</name>
+   <value>1000000</value>
+</property>
+
+$ hive -e "set hive.exec.reducers.bytes.per.reducer=1000000"
+
+set mapred.reduce.tasks=50
+```
