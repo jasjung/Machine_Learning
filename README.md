@@ -18,7 +18,7 @@ Even though I learned R first, I began to document my learning when I started to
 - **Python Basics**:[Stanford CS231n - Python](http://cs231n.github.io/python-numpy-tutorial/)
 - **Reinforecement Learning**: [OpenAI](https://gym.openai.com)
 - **Computer Vision**: [Stanford CS231n](http://cs231n.stanford.edu)
-- **Deep Learning**: [deeplearning.ai](https://deeplearning.ai)
+- **Deep Learning**: [deeplearning.ai](https://deeplearning.ai), [fast.ai](https://fast.ai)
 - **Machine Learning**: [Google Crash Course](https://developers.google.com/machine-learning/crash-course/ml-intro)
 - **TensorFlow**: [Hvass-Labs Tutorial](https://github.com/Hvass-Labs/TensorFlow-Tutorials)
 
