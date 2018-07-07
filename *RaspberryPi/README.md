@@ -26,3 +26,14 @@ To lock the screen:
 - xscreensaver &
 - xscreensaver-command -lock
 
+
+## Locate 
+
+https://www.howtoforge.com/tutorial/linux-search-files-from-the-terminal/
+
+```
+sudo apt-get install locate
+
+locate sunny
+locate -c sunny
+```
