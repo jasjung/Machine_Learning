@@ -10,6 +10,11 @@ Build your own website using `Github Pages` and blog with `Jekyll`.
 - https://www.youtube.com/watch?v=iWowJBRMtpc
 - https://github.com/evanwill/evanwill.github.io/blob/master/index.html
 
+Other Reference 
+
+- https://jekyllrb.com/docs/posts/
+
+
 ### Steps
 
 There are a few ways to do this, but this is how I did it. 
@@ -22,10 +27,30 @@ There are a few ways to do this, but this is how I did it.
 gem install jekyll 
 jekyll new new_site 
 cd new_site
-jekyll serve --watch 
+sudo jekyll serve --watch 
 ```
 
 3. Push your repo and visit `[username].github.io/[repo-name]`. You can start blogging in the _posts folder using markdown. 
+
+### Insert Image 
+```
+![image-title-here](/path/to/image.jpg){:class="img-responsive"}
+```
+Ref: 
+
+- https://dev-notes.eu/2016/01/images-in-kramdown-jekyll/
+- http://talk.jekyllrb.com/t/i-cannot-get-an-image-to-display/850/5
+- https://flinhong.com/2016/09/22/figure-caption-for-images-on-jekyll-sites/
+
+
+or 
+
+```
+![My helpful screenshot]({{ "/assets/screenshot.jpg" | absolute_url }})
+```
+
+
+
 
 
 ## HTML & CSS 
