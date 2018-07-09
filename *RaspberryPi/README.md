@@ -37,3 +37,15 @@ sudo apt-get install locate
 locate sunny
 locate -c sunny
 ```
+
+## configuration 
+
+```
+sudo raspi-config
+```
+
+## vim 
+
+```
+sudo apt-get install vim 
+```
