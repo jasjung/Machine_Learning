@@ -3,7 +3,7 @@
 ![license MIT](https://img.shields.io/github/license/mashape/apistatus.svg)
 ![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)
 
-All codes and learnings related to coding, machine learning, data science, and everything else I feel like adding. I continuously update this repository to document my learnings for future references. Otherwise noted, I mostly use Python 3 on MacOS. 
+All codes related to programming, machine learning, and data science. I continuously update this repository to document my learnings for future references. Otherwise noted, I mostly use Python 3 on MacOS. 
 
 Even though I learned R first, I began to document my learning when I started to learn Python. I will slowly add R-related codes as well in the future. 
  

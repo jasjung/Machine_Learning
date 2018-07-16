@@ -63,3 +63,9 @@ df.loc[:, df.std() > .3]
 ```
 df.sample(frac=1)
 ```
+
+## Reverse Dict Mapping 
+
+```py 
+inv_map = {v: k for k, v in my_map.items()}
+```

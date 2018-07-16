@@ -1,0 +1,20 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "b8:27:eb:b4:0c:1a",
+        "port": 33507,
+        "pin": "415-21-852"
+    },
+
+    "description": "This is an example configuration file with one fake accessory and one fake platform. You can use this as a template for creating your own configuration file containing devices you actually own.",
+
+    "accessories": [
+    ],
+
+    "platforms": [
+        {
+            "platform": "TplinkSmarthome",
+            "name": "TplinkSmarthome"
+        }
+    ]
+}

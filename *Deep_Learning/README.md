@@ -32,6 +32,12 @@ https://keras.io
 sudo pip install keras
 ```
 
+To upgrate to newest version 
+
+```
+sudo pip install --upgrade keras
+```
+
 
 ### Keras Model Saving 
 [Reference](https://keras.io/getting-started/faq/#how-can-i-save-a-keras-model)

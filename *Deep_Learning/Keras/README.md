@@ -33,3 +33,9 @@ plt.xlabel('epoch')
 plt.legend(['train', 'test'], loc='upper left')
 plt.show()
 ```
+
+## Function API 
+Ref: 
+
+- https://machinelearningmastery.com/keras-functional-api-deep-learning/
+- https://keras.io/getting-started/functional-api-guide/
