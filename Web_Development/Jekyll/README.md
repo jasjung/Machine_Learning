@@ -16,3 +16,32 @@ https://medium.com/@balogic/adding-comments-part-to-your-jekyll-blog-6a8fccb7e63
 
 ```
 ```
+
+## Local Dev 
+
+ref: 
+
+- https://github.com/jekyll/jekyll/issues/3103
+- https://jekyllrb.com/docs/quickstart/
+
+When `jekylle serve` does not work, do the following instead: 
+ 
+```
+bundle exec jekyll serve --watch 
+```
+
+## Images 
+
+When I inserted images and videos into the jekyll posts, they were broken when I built the site. You need to do the following to fix it. 
+
+1. In `config.yml` update your `baseurl` and `url`. 
+
+    ```
+baseurl: "/Blog"
+url: "http://usrname.github.io" 
+```
+
+2. In your `markdown` file, add `{{site.url}}{{site.baseurl}}` to the file path. 
+
+ref: https://github.com/hemangsk/Gravity/issues/1
+

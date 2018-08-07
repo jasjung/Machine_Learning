@@ -179,12 +179,12 @@ df.select('features').show(1)
 
 ## Show Null
 
-```
+```py
 # col a 
 df.where(df.a.isNull()).count()
 ```
 
-```
+```py
 # print out which column has null 
 for col in df.columns:
     print(col)
@@ -192,4 +192,9 @@ for col in df.columns:
     if count >0:
         print("winner:",col,count)
 
+```
+
+## random Sample 
+```py
+df.sample(withReplacement=False,fraction=0.1,seed=0)
 ```

@@ -51,13 +51,13 @@ https://pages.github.com
 
 When you try to upload a large file, you will fail to push. Even after you delete those files, you will still not be able to push because those large files are cached in history. The following is a way to remove them. 
 
-[Reference](https://stackoverflow.com/questions/2100907/how-to-remove-delete-a-large-file-from-commit-history-in-git-repository)
+[Reference 1](https://stackoverflow.com/questions/2100907/how-to-remove-delete-a-large-file-from-commit-history-in-git-repository)
 
 ```
 git filter-branch --tree-filter 'rm -f file/location' HEAD
 ```
 
-[Reference2](https://stackoverflow.com/questions/19573031/cant-push-to-github-because-of-large-file-which-i-already-deleted?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
+[Reference 2](https://stackoverflow.com/questions/19573031/cant-push-to-github-because-of-large-file-which-i-already-deleted?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
 
 
 ```
@@ -67,6 +67,19 @@ git filter-branch --index-filter 'git rm -r --cached --ignore-unmatch <file/dir>
 git filter-branch --index-filter 'git rm -r --cached --ignore-unmatch <file/dir>' -f HEAD
 
 # replace <file/dir> with your file's location 
+```
+
+[Reference 3](https://stackoverflow.com/questions/19573031/cant-push-to-github-because-of-large-file-which-i-already-deleted/23657759#23657759)
+
+```
+git rm --cached giant_file
+    # Stage our giant file for removal, but leave it on disk
+git commit --amend -CHEAD
+    # Amend the previous commit with your change
+    # Simply making a new commit won't work, as you need
+    # to remove the file from the unpushed history as well
+git push
+    # Push our rewritten, smaller commit
 ```
 
 ## Branching
@@ -80,8 +93,15 @@ git push origin my_branch
 ```
 
 ### Merge branch from terminal 
+
 coming soon 
+
 ```
 
 ```
+
+
+
+
+
 
