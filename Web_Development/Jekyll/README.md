@@ -1,5 +1,62 @@
 # Jekyll 
 
+
+Build your own website using `Github Pages` and blog with `Jekyll`. 
+ 
+## Tutorial 
+- https://evanwill.github.io/go-go-ghpages/
+- https://www.youtube.com/watch?v=SWVjQsvQocA
+- https://www.youtube.com/watch?v=iWowJBRMtpc
+- https://github.com/evanwill/evanwill.github.io/blob/master/index.html
+- Other Ref: https://jekyllrb.com/docs/posts/
+
+## Steps
+
+There are a few ways to do this, but this is how I did it. 
+
+1. Create Repo on Github. Then go to `Settings` --> `GitHub Pages`--> Choose `Source` (I used master branch) --> `Save`. Then your repo should be live under `[username].github.io/[repo-name]` but there will be no content. 
+2. Download your repo locally and type the following in your terminal. 
+
+   ```
+# may need sudo
+gem install jekyll 
+jekyll new new_site 
+cd new_site
+sudo jekyll serve --watch 
+# or 
+sudo bundle exec jekyll serve --watch
+```
+
+3. Push your repo and visit `[username].github.io/[repo-name]`. You can start blogging in the _posts folder using markdown. 
+
+## Trouble Shooting 
+
+```
+gem cleanup lumberjack
+gem list lumberjack
+bundle clean --force
+```
+
+
+
+## Insert Image 
+```
+![image-title-here](/path/to/image.jpg){:class="img-responsive"}
+```
+Ref: 
+
+- https://dev-notes.eu/2016/01/images-in-kramdown-jekyll/
+- http://talk.jekyllrb.com/t/i-cannot-get-an-image-to-display/850/5
+- https://flinhong.com/2016/09/22/figure-caption-for-images-on-jekyll-sites/
+
+
+or 
+
+```
+![My helpful screenshot]({{ "/assets/screenshot.jpg" | absolute_url }})
+```
+
+
 ## Add Comments Tool 
 
 ### [DISQUS.com](https://www.DISQUS.com)
@@ -13,9 +70,6 @@ https://medium.com/@balogic/adding-comments-part-to-your-jekyll-blog-6a8fccb7e63
 - https://utteranc.es
 - http://ivanzuzak.info/2011/02/18/github-hosted-comments-for-github-hosted-blogs.html
 
-
-```
-```
 
 ## Local Dev 
 
