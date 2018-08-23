@@ -1,5 +1,9 @@
 # LSTM
 
+Conceptual 
+
+- http://colah.github.io/posts/2015-08-Understanding-LSTMs/
+
 ## In Keras 
 
 https://faroit.github.io/keras-docs/1.2.1/layers/recurrent/

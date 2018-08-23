@@ -25,3 +25,6 @@ pip3 install pyglet==1.2.4
 - http://mckinziebrandon.me/TensorflowNotebooks/2016/12/21/openai.html
 - http://nbviewer.jupyter.org/github/patrickmineault/xcorr-notebooks/blob/master/Render%20OpenAI%20gym%20as%20GIF.ipynb  
 - http://gforsyth.github.io/instructions,/reference/2014/03/01/installing-jsanimation.html
+- tutorial-driving-game-q-learning: https://medium.freecodecamp.org/how-to-build-an-ai-game-bot-using-openai-gym-and-universe-f2eb9bfbb40a
+
+

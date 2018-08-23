@@ -1,5 +1,11 @@
 # Basic Python Tricks
 
+## Updating Python Packages 
+
+```
+pip install -U [package name]
+```
+
 Includes materials from DataCamp.com 
 
 ## Random Tips
@@ -22,13 +28,6 @@ https://stackoverflow.com/questions/23388810/ipython-notebook-output-cell-is-tru
 ```py
 df.acq_date.apply(lambda x: datetime.strptime(x,'%Y-%m-%d'))
 datetime(2018, 1, 7)
-```
-
-### Any rows with NAN
-```py
-df[df.isnull().any(axis=1)]
-
-df.isnull().sum()
 ```
 
 ### Drop Null 

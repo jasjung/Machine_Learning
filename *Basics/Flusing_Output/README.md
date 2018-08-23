@@ -22,3 +22,15 @@ Instead of outputting a newline character \n at the end of the line, you can use
 for i in range(100):
     print(i,flush=True,end='\r')
 ```
+
+## Example 
+
+If you want to output percentage completion:
+
+```py 
+for i in range(len(df)): 
+	print('completed: %s' % (i/len(df)*100),flush=True,end='\r')  
+
+	# ... 
+
+```

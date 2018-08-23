@@ -84,7 +84,7 @@ git push
 
 ## Branching
 ```
-git clheckout -b my_branch # -b if the new branch does not exist
+git checkout -b my_branch # -b if the new branch does not exist
 # do your dev work
 git add .
 git commit -m 'yo'
@@ -102,6 +102,39 @@ coming soon
 
 
 
+## Large Files 
+
+- https://hackernoon.com/exclude-files-from-git-without-committing-changes-to-gitignore-986fa712e78d
+- https://github.com/sr320/course-fish546-2015/issues/43
+- https://stackoverflow.com/questions/4035779/gitignore-by-file-size
+
+To automatically ignore large files 
+
+```
+find ./* -size +100M | cat >> .gitignore
+# or 
+find ./* -size +100M | cat >> .git/info/exclude
+```
+
+I found out that the above lines add `./` in the beginning of the file names and thus do not work. Solution is this: 
+
+```
+find . -size +100M | sed 's|^\./||g' | cat >> .git/info/exclude
+```
+
+To exclude duplicate files. 
+
+```
+find . -size +100M | sed 's|^\./||g' | cat >> .git/info/exclude; 
+sort -u -o .git/info/exclude .git/info/exclude  ;  head .git/info/exclude 
+
+```
+
+The following did not work but shows the use case of `awk`
+
+```
+find . -size +100M | sed 's|^\./||g' | cat >> .git/info/exclude; awk '!NF || !seen[$0]++' .git/info/exclude
+```
 
 
 

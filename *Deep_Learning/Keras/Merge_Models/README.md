@@ -1,8 +1,4 @@
-# 
-
-```
-```
-
+# Keras Merge Model 
 
 Ref: 
 
