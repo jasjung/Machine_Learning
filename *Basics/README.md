@@ -2,7 +2,7 @@
 
 ## Updating Python Packages 
 
-```
+```sh 
 pip install -U [package name]
 ```
 
@@ -32,7 +32,7 @@ datetime(2018, 1, 7)
 
 ### Drop Null 
 https://pandas.pydata.org/pandas-docs/version/0.21/generated/pandas.DataFrame.dropna.html
-```
+```py 
 # drop rows if it has any nulls 
 df.dropna(axis=0, how='any')
 ```
@@ -59,7 +59,7 @@ df.loc[:, df.std() > .3]
 ```
 
 ### Shuffle Pandas DataFrame 
-```
+```py 
 df.sample(frac=1)
 ```
 
@@ -67,4 +67,15 @@ df.sample(frac=1)
 
 ```py 
 inv_map = {v: k for k, v in my_map.items()}
+```
+
+## Print Version 
+
+```py 
+# python version 
+import sys
+print('python version:', sys.version[:31])
+# or 
+print('python version:', sys.version[:3])
+# out: python version: 3.6
 ```

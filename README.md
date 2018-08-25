@@ -1,11 +1,9 @@
-# Python
+# Machine Learning
 
 ![license MIT](https://img.shields.io/github/license/mashape/apistatus.svg)
 ![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)
 
-All codes related to programming, machine learning, and data science. I continuously update this repository to document my learnings for future references. Otherwise noted, I mostly use Python 3 on MacOS. 
-
-Even though I learned R first, I began to document my learning when I started to learn Python. I will slowly add R-related codes as well in the future. 
+All codes related to programming, [machine learning](https://en.wikipedia.org/wiki/Machine_learning), and data science. I continuously update this repository to document my learnings for future references. Otherwise noted, I mostly use Python 3 on MacOS. 
  
 ## Raspberry Pi Projects 
 - **PiNest**
