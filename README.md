@@ -2,6 +2,10 @@
 
 ![license MIT](https://img.shields.io/github/license/mashape/apistatus.svg)
 ![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)
+![Keras 2.2](https://img.shields.io/badge/keras-2.2-red.svg)
+![tensorflow 1.8](https://img.shields.io/badge/tensorflow-1.8-orange.svg)
+![spark 1.8](https://img.shields.io/badge/spark-2.3-yellow.svg)
+
 
 All codes related to programming, [machine learning](https://en.wikipedia.org/wiki/Machine_learning), and data science. I continuously update this repository to document my learnings for future references. Otherwise noted, I mostly use Python 3 on MacOS. 
  
