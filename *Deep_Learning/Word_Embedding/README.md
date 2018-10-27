@@ -1,10 +1,18 @@
-# Word Embedding 
+# Word2Vec
 
-- Tutorial: https://machinelearningmastery.com/use-word-embedding-layers-deep-learning-keras/
-- GloVe: https://nlp.stanford.edu/projects/glove/
+This folder should technically be under deep learning, but since I am simply using a gensim package rather than building a model using deep learning framework, I decided to put it under machine learning. 
 
-```py
-from keras.preprocessing.sequence import pad_sequences
-from keras.preprocessing.text import Tokenizer
-```
+Code from Kaggle Competition Tutorial using Gensim Package. 
+
+References: 
+
+- **Gensim:** https://radimrehurek.com/gensim/
+- **Kaggle Tutorial:** https://www.kaggle.com/c/word2vec-nlp-tutorial#part-2-word-vectors
+- Gensim Tutorial: http://kavita-ganesan.com/gensim-word2vec-tutorial-starter-code/#.W2ywxS2ZPxt
+
+## Doc2Vec
+
+- **Doc2Vec**: https://github.com/RaRe-Technologies/gensim/blob/develop/docs/notebooks/doc2vec-lee.ipynb
+- https://medium.com/scaleabout/a-gentle-introduction-to-doc2vec-db3e8c0cce5e
+- https://medium.com/@mishra.thedeepak/doc2vec-simple-implementation-example-df2afbbfbad5
 

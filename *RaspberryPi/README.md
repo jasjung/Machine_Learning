@@ -49,3 +49,15 @@ sudo raspi-config
 ```
 sudo apt-get install vim 
 ```
+
+## Python 3 vs 2 
+
+If you want to specifically install packages to python 3: 
+
+```
+sudo apt-get install python3-pip
+# for python2 
+sudo apt-get install python-matplotlib
+# for python3 
+sudo apt-get install python3-matplotlib
+```

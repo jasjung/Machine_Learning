@@ -164,3 +164,54 @@ $ hive -e "set hive.exec.reducers.bytes.per.reducer=1000000"
 
 set mapred.reduce.tasks=50
 ```
+
+
+### String to Date 
+
+http://bigdataprogrammers.com/string-date-conversion-hive/
+
+```sql
+to_date(from_unixtime(UNIX_TIMESTAMP(dt,'yyyy-MM-dd'))) as col1 
+
+--or 
+
+to_date(dt) 
+```
+
+### Describe()
+
+To view the schema
+
+```sql
+describe table.name 
+```
+
+### Dates 
+
+```
+datediff()
+date_sub()
+```
+
+## Median 
+
+```sql 
+percentile(cast(age as BIGINT), 0.5)
+```
+
+## Box plot 
+
+
+```sql 
+SELECT 
+	col1 
+	,min(col2) AS min
+	,percentile(col2, 0.25) AS Q1
+	,percentile(col2, 0.5) AS median
+	,avg(col2) AS avg
+	,percentile(col2, 0.75) AS Q3
+	,max(col2) AS max
+		
+FROM table
+GROUP BY col1;
+```

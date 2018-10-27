@@ -79,3 +79,12 @@ print('python version:', sys.version[:31])
 print('python version:', sys.version[:3])
 # out: python version: 3.6
 ```
+
+## Map 
+
+Convert list of string integers to list of integers. 
+
+```py 
+result = ['0','0','0']
+list(map(int, result))
+```

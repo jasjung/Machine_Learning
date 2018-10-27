@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> 'Hello Jason' </title>
+</head>
+<body>
+
+</body>
+</html>
+
+<!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  -->
+<h2> Part 1 </h2>
+<p> Please input your text here. </p>	
+<form action="{{ url_for('submit') }}" method="post">
+    <textarea name="text"></textarea>
+    <input type="submit">
+</form>
+
+<!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  -->
+<h2> Part 2 </h2>
+<p> Press the button below to run the function. </p>	
+
+<form action="/function" method="post">
+    <button name="forwardBtn" type="submit">Run Function</button>
+</form>
+<p> {{ message }} </p>
+
+<!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  -->
+<h2> Part 3 </h2>
+<p> Home Button </p>	
+<form action="/" >
+    <button name='homeButton' type="submit">Home</button>
+</form>
+
+<!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  -->
+
+<!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  --><!--  -->

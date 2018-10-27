@@ -19,6 +19,7 @@
 - type `screen -ls` to see list of screen sessions
 - press `control + a ` then type `:quit` to quit the screen session while you are in the session. 
 - `killall SCREEN` to kill all screens 
+- reattach: `screen -r <session_id>`
 
 ## Server Trikcs 
 - `hostname`: to see the current server host name 

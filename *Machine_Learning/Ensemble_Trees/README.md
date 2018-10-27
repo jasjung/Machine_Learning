@@ -9,6 +9,10 @@
 
 Ref: http://scikit-learn.org/stable/modules/cross_validation.html
 
+```py 
+
+
+```
 
 ### Max Depth 
 
@@ -51,6 +55,34 @@ import pandas as pd
 feature_importances = pd.DataFrame(rf.feature_importances_,
                                    index = X_train.columns,
                                     columns=['importance']).sort_values('importance',                                                                 ascending=False)
+```
+
+### Visualize Tree 
+
+[reference](https://medium.com/@rnbrown/creating-and-visualizing-
+decision-trees-with-python-f8e8fa394176)
+
+```py
+# Import tools needed for visualization
+from sklearn.tree import export_graphviz
+import pydot
+import pydotplus
+from IPython.display import display, Image
+
+# grab on the the trees 
+tree = rf.estimators_[5]
+
+# Export the image to a dot file
+export_graphviz(tree, out_file = 'tree.dot', feature_names = x_train.columns, rounded = True,max_depth=3,filled=True)
+
+# Use dot file to create a graph
+graph = pydotplus.graph_from_dot_file('tree.dot')  
+
+# Write graph to a png file
+graph.write_png('tree.png')
+
+# display 
+Image(graph.create_png())
 ```
 
 ## Gradient-Boosted Trees 
