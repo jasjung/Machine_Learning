@@ -60,3 +60,28 @@ results.show()
 # | Justin|
 # +-------+
 ```
+
+## Simpler Method
+
+```py 
+pdf = pd.DataFrame({'value':["hi,hi",'what,is','testing,ok']})
+sdf = sqlcontext.createDataFrame(pdf)
+sdf.show()
++----------+
+|     value|
++----------+
+|     hi,hi|
+|   what,is|
+|testing,ok|
++----------+
+
+# or 
+sc.parallelize(["hi,hi",'what,is','testing,ok']).toDF(StringType()).show()
++----------+
+|     value|
++----------+
+|     hi,hi|
+|   what,is|
+|testing,ok|
++----------+
+```

@@ -86,3 +86,12 @@ rm ~/.bash_history
 # Open the history file
 open ~/.bash_history
 ```
+
+## ETC 
+
+```
+ps -ef | grep <pattern>
+ps -aux | grep <pattern>
+netstat -an 
+```
+

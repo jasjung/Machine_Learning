@@ -19,3 +19,9 @@ chmod 700 myfile.txt
 # gives access to everyone 
 chmod 777 myfile.txt 
 ```
+
+### Recursive 
+
+```
+chmod -R 755 /path/to/directory 
+```

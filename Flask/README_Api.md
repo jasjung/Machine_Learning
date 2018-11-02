@@ -6,6 +6,7 @@ References:
 - **swagger**: [https://realpython.com/flask-connexion-rest-api/](https://realpython.com/flask-connexion-rest-api/) I recommend this 
 	- https://github.com/realpython/materials/tree/master/flask-connexion-rest
 - http://brunorocha.org/python/flask/flasgger-api-playground-with-flask-and-swagger-ui.html
+- API general concept: https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/
 
 "REST: a set of conventions taking advantage of the HTTP protocol to provide CRUD (Create, Read, Update, and Delete) behavior on things and collections of those things."
 

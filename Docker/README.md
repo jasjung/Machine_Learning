@@ -27,6 +27,15 @@ docker save -o <path for generated tar file> <image name>
 docker load -i <path to image tar file>
 ```
 
+Running 
+
+```
+sudo docker run -p 5000:5000 <your docker img> 
+-> go to localhost:5000
+
+sudo docker run -p 80:5000 <your docker img> 
+-> go to localhost since 80 is default port
+```
 
 ### Linux 
 

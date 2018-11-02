@@ -34,6 +34,9 @@ findspark.find()
 from pyspark import SparkContext
 sc = SparkContext()
 
+from pyspark.sql import SQLContext
+sqlcontext = SQLContext(sc)
+
 sc.parallelize(range(1000)).count()
 # out: 1000 
 
