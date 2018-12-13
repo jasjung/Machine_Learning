@@ -1,6 +1,4 @@
-# Word2Vec
-
-This folder should technically be under deep learning, but since I am simply using a gensim package rather than building a model using deep learning framework, I decided to put it under machine learning. 
+# Word Embedding
 
 Code from Kaggle Competition Tutorial using Gensim Package. 
 

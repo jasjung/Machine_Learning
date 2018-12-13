@@ -64,6 +64,7 @@ git filter-branch --tree-filter 'rm -f file/location' HEAD
 git filter-branch --index-filter 'git rm -r --cached --ignore-unmatch <file/dir>' HEAD
 
 # if you have more than one, you need to force it with -f
+# this one always works for me (do git push right after this command)
 git filter-branch --index-filter 'git rm -r --cached --ignore-unmatch <file/dir>' -f HEAD
 
 # replace <file/dir> with your file's location 

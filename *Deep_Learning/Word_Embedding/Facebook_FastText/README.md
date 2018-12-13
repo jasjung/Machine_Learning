@@ -16,7 +16,7 @@ Reference:
 ## OG Method 
 
 ```
-
+git clone https://github.com/facebookresearch/fastText.git && cd fastText && python setup.py install
 ```
 
 ## Gensim Wrapper

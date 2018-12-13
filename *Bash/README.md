@@ -1,5 +1,9 @@
 # Bash Tricks 
 
+Reference
+
+- Cheatsheet: [https://devhints.io/bash](https://devhints.io/bash)
+
 ## Accessing Files 
 - Source: http://bconnelly.net/working-with-csvs-on-the-command-line/
 - `head input.csv`: view first 10 lines of the file 
@@ -23,23 +27,6 @@
 
 ## Server Trikcs 
 - `hostname`: to see the current server host name 
-
-## Rsync 
-- `rsync -azh localfile.csv servername:/home/username/..`
-- `rsync -azh servername:/home/username/file.csv /Users/username/folder`
-- Run `bash rync.sh` to sync your folder 
-
-```
-# sync.sh
-#!/usr/bin/env bash
-
-directory=`pwd`
-#echo $directory
-base=`basename $directory`
-echo "updating prod:projects/$base"
-
-rsync -azh $directory prod:/home/username/projects/
-```
 
 ## SCP 
 - `scp file_to_trasnfer.txt servername:/home/username/location_to_transfer` 

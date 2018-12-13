@@ -1,5 +1,7 @@
 # Homebridge 
 
+*Public Repo*
+
 TP-LINK Smart Plug does not work with Apple Homekit, but Homebridge bridges that limitation. 
 
 What is Homebridge? [github.com/nfarina/homebridge](https://github.com/nfarina/homebridge)
@@ -55,13 +57,20 @@ https://www.npmjs.com/package/homebridge-tplink-smarthome
 sudo npm install -g homebridge-tplink-smarthome
 ```
 
-## config.json 
+
+### config.json 
 
 config example: https://github.com/nfarina/homebridge/blob/master/config-sample.json
 
 ```
 ~/.homebridge
 touch config.json
+```
+
+### To run 
+
+```
+homebridge
 ```
 
 ## Other 

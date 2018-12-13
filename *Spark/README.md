@@ -26,8 +26,27 @@ brew install apache-spark
 
 # to test 
 spark-shell
+```
 
-# in jupyternotebook
+- https://stackoverflow.com/questions/34601554/mac-spark-shell-error-initializing-sparkcontext?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+
+## Starting Session 
+
+New way 
+
+```py 
+from pyspark.sql import SparkSession
+
+spark = SparkSession \
+    .builder \
+    .appName("Jason's Spark App") \
+    .config("spark.some.config.option", "some-value") \
+    .getOrCreate()
+```
+
+Old way 
+
+```py
 import findspark
 findspark.find() 
 
@@ -39,10 +58,9 @@ sqlcontext = SQLContext(sc)
 
 sc.parallelize(range(1000)).count()
 # out: 1000 
-
 ```
 
-- https://stackoverflow.com/questions/34601554/mac-spark-shell-error-initializing-sparkcontext?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+
 
 ## SparkContext Error
 When you spin up a new spark context in a new network (ie. you ran spark at work but now want to run it at home), run the following command in the command line and restart your kernel and spin up spark. 

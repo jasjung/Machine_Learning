@@ -32,4 +32,11 @@ If your notebook gives you error "IOPub data rate exceeded", try:
 
 ## Magic Commands 
 
-https://ipython.readthedocs.io/en/stable/interactive/magics.html
+- https://ipython.readthedocs.io/en/stable/interactive/magics.html
+- http://nbviewer.jupyter.org/github/ipython/ipython/blob/1.x/examples/notebooks/Cell%20Magics.ipynb
+
+```
+%%capture 
+%time 
+%lsmagic
+```
