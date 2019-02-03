@@ -1,5 +1,14 @@
 # How to Train on AWS GPU 
 
+
+## Install 
+
+```
+pip install awscli --upgrade --user
+```
+https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
+
+
 ## AWS ML Training
 
 References: 
@@ -31,4 +40,10 @@ Notes from the documentation:
 Deep Learning AMI (Ubuntu) Version 17.0 - ami-047daf3f2b162fc35
 
 
+
+### Sagemaker 
+
+```
+https://aws.amazon.com/sagemaker/pricing/
+```
 

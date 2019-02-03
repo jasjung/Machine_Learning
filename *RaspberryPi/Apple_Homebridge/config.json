@@ -1,7 +1,7 @@
 {
     "bridge": {
         "name": "Homebridge",
-        "username": "b8:27:eb:b4:0c:1a",
+        "username": [MAC ADDRESS],
         "port": 33507,
         "pin": "415-21-852"
     },

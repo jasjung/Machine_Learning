@@ -1,30 +1,39 @@
-# RaspberryPi
+# Raspberry Pi
 
 All things related to Raspberry Pi. 
 
-### SET UP: 
+## How to set up your raspberry pi for the first time 
+
+https://www.raspberrypi.org/documentation/installation/noobs.md
+
+1. Download zip here: https://www.raspberrypi.org/downloads/ then extract it 
+2. Format SD card as FAT (MS-DOS Fat in Mac)
+3. Copy the extracted files into the sd card in its root directory. 
+4. Insert the SD card into the raspberry pi and follow instructions. 
+
+## General Note 
+
+### Updating  
+
 - sudo apt-get update
 - sudo apt-get upgrade
+
+### Install Pandas 
+
+```
+sudo apt-get install python3-pandas
+```
 
 ### VNC (Remote Access)
 - sudo apt-get update 
 - sudo apt-get install realvnc-vnc-server realvnc-vnc-viewer
-- sudo raspi-config # to enable vnc 
+- sudo raspi-config # to enable vnc -> navigate to Interfacing Options > VNC and select Yes.
 - source: https://www.realvnc.com/en/connect/docs/raspberry-pi.html
 
-### PYTHON: 
-To install python pacakges do:
+### PYTHON 
+To install python pacakges do: 
+
 - sudo pip install [package_name]
-
-### lock your screen 
-- sudo apt-get xscreensaver 
-
-To change setting: 
-- xscreensaver
-
-To lock the screen: 
-- xscreensaver &
-- xscreensaver-command -lock
 
 
 ## Locate 

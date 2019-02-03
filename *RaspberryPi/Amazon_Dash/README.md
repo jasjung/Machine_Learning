@@ -1,5 +1,18 @@
 # Amazon Dash
 
+
+### Installation 
+
+https://scapy.readthedocs.io/en/latest/installation.html
+
+```
+sudo apt-get install tcpdump graphviz imagemagick python-gnuplot python-cryptography python-pyx
+
+sudo pip install scapy-python3
+
+sudo pip install scapy
+```
+
 ## Resource
 - basic tutorial: https://blog.cloudstitch.com/how-i-hacked-amazon-s-5-wifi-button-to-track-baby-data-794214b0bdd8
 - When you have ARP Layer issue: https://www.tutel.me/c/unix/questions/223255/using+python+and+scapy+to+sniff+for+arp+on+pi

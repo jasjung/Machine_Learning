@@ -35,3 +35,13 @@ from itertools import islice
 with open(filename, 'r') as infile:
     lines_gen = islice(infile, N)
 ```
+
+## Pandas 
+
+https://stackoverflow.com/questions/42900757/sequentially-read-huge-csv-file-in-python
+
+```py 
+chunksize = 10 ** 6
+for chunk in pd.read_csv(filename, chunksize=chunksize):
+    process(chunk)
+```

@@ -13,10 +13,16 @@ Reference:
 - Precision Recall: [https://stackoverflow.com/questions/46129903/precision-and-recall-in-fasttext](https://stackoverflow.com/questions/46129903/precision-and-recall-in-fasttext)
 - FastText\_Official\_Python_Wrapper: [https://github.com/facebookresearch/fastText/tree/master/python](https://github.com/facebookresearch/fastText/tree/master/python)
 
-## OG Method 
+## OG Method Installation
 
 ```
 git clone https://github.com/facebookresearch/fastText.git && cd fastText && python setup.py install
+```
+
+```
+git clone https://github.com/facebookresearch/fastText.git
+cd fastText
+pip install .
 ```
 
 ## Gensim Wrapper
@@ -39,6 +45,14 @@ print(model_wrapper['night'])
 print(model_wrapper['nights'])
 
 model.wv.__contains__('hi')
+```
+
+Loading 
+
+```
+from gensim.models import FastText as gfastText
+gensim_ft_model = gfastText.load_fasttext_format('model.bin')
+gensim_ft_model.wv.most_similar('hello')
 ```
 
 ### Reading Pretrained Embedding 
@@ -66,4 +80,10 @@ print model.words # list of words in dictionary
 # CBOW model
 model = fasttext.cbow('data.txt', 'model')
 print model.words # list of words in dictionary
+```
+
+## Python Function 
+
+```py 
+ft_model.get_word_vector('hi')
 ```

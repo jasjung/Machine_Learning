@@ -25,13 +25,15 @@ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
 # Install Avahi and other Dependencies
-sudo apt-get install libavahi-compat-libdnssd-dev
+sudo apt-get install libavahi-compat-libdnssd-dev -y 
 ```
 
 #### Main 
 ```
 sudo npm install -g --unsafe-perm homebridge
 # sudo npm install -g homebridge
+
+# npm -g install homebridge --unsafe-perm
 
 # fixing error 
 cd /usr/local/lib/node_modules/homebridge/node_modules/ed25519
@@ -63,9 +65,11 @@ sudo npm install -g homebridge-tplink-smarthome
 config example: https://github.com/nfarina/homebridge/blob/master/config-sample.json
 
 ```
-~/.homebridge
+cd ~/.homebridge
 touch config.json
 ```
+
+Note: Make sure your mac address is using capital letters. This created an error for me when I used small case letters. 
 
 ### To run 
 

@@ -82,3 +82,8 @@ ps -aux | grep <pattern>
 netstat -an 
 ```
 
+## Find Files Certain Size 
+
+```
+find . -size +100M
+```
