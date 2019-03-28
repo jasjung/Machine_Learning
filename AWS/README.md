@@ -1,6 +1,5 @@
 # How to Train on AWS GPU 
 
-
 ## Install 
 
 ```
@@ -40,10 +39,31 @@ Notes from the documentation:
 Deep Learning AMI (Ubuntu) Version 17.0 - ami-047daf3f2b162fc35
 
 
-
 ### Sagemaker 
 
 ```
 https://aws.amazon.com/sagemaker/pricing/
 ```
 
+### Access Key ID and Secret Access Key 
+
+credit: [https://supsystic.com/documentation/id-secret-access-key-amazon-s3/](https://supsystic.com/documentation/id-secret-access-key-amazon-s3/)
+
+```
+In order to get your Access Key ID and Secret Access Key follow next steps:
+
+Open the IAM console.
+From the navigation menu, click Users.
+Select your IAM user name.
+Click User Actions, and then click Manage Access Keys.
+Click Create Access Key.
+Your keys will look something like this:
+Access key ID example: AKIAIOSFODNN7EXAMPLE
+Secret access key example: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+Click Download Credentials, and store the keys in a secure location.```
+
+
+### Tags 
+
+- https://cloudacademy.com/blog/what-are-best-practices-for-tagging-aws-resources/
+- https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html

@@ -31,3 +31,18 @@ Remember to add your own sound and change the file name in `done.py`
 ## Additional Feature
 If you want to see how long it took to run the model, you can put `%time`.  
 
+
+## V2 
+
+```py 
+from IPython.display import Audio, display
+
+path = 'payment_success.mp3'
+        
+def done(work_email = 0, mute = 0):
+    display(Audio(filename=path, autoplay=True))
+    
+    now = datetime.datetime.now()
+    print("Finished @", now.strftime("%Y-%m-%d, %H:%M:%S"))
+```
+

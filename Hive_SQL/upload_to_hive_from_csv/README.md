@@ -23,5 +23,5 @@ LOAD DATA LOCAL INPATH 'your_file_path' OVERWRITE INTO TABLE jason.table;
 
 ### With Partition 
 
-https://stackoverflow.com/questions/45214291/loading-in-path-file-to-a-partitioned-table
-
+- https://stackoverflow.com/questions/45214291/loading-in-path-file-to-a-partitioned-table
+- http://bigdataprogrammers.com/load-files-into-hive-partitioned-table/

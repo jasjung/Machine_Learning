@@ -1,5 +1,13 @@
 # Matplotlib
 
+### Stlye 
+
+```py 
+import matplotlib.style as style
+# style.available
+style.use('fivethirtyeight')
+```
+
 ### FigSize
 
 ```py
@@ -14,4 +22,17 @@ plt.title('histogram')
 plt.ylabel('count')
 plt.xlabel('number of words')
 plt.show()
+```
+
+### Xticks 
+
+```py 
+plt.xticks(rotation='vertical')
+```
+
+### Legends 
+
+```py 
+plt.plot(x,y,label='hi')
+plt.legend()
 ```

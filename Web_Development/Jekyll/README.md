@@ -20,7 +20,7 @@ There are a few ways to do this, but this is how I did it.
    ```
 # may need sudo
 gem install jekyll 
-jekyll new new_site 
+sudo jekyll new new_site 
 cd new_site
 sudo jekyll serve --watch 
 # or 
@@ -98,4 +98,9 @@ url: "http://usrname.github.io"
 2. In your `markdown` file, add `{{site.url}}{{site.baseurl}}` to the file path. 
 
 ref: https://github.com/hemangsk/Gravity/issues/1
+
+
+## Permalink
+
+https://jekyllrb.com/docs/permalinks/
 

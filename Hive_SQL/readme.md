@@ -111,11 +111,6 @@ select concat_ws(',',array_col)
 from table;  
 ```
 
-### Explode table 
-```
--- coming soon
-```
-
 ### Other 
 ```
 concat_ws() 

@@ -60,3 +60,26 @@ from keras.datasets import imdb
 
 https://www.kaggle.com/c/movie-review-sentiment-analysis-kernels-only/data
 
+
+## News20 
+
+https://scikit-learn.org/0.19/datasets/twenty_newsgroups.html
+
+```py 
+from sklearn.datasets import fetch_20newsgroups
+# newsgroups_train = fetch_20newsgroups(subset='train')
+
+newsgroups_train = fetch_20newsgroups(subset='train',
+                                      remove=('headers', 'footers', 'quotes'))
+
+# sample 
+cats = ['alt.atheism', 'sci.space']
+newsgroups_train = fetch_20newsgroups(subset='train', categories=cats)
+newsgroups_train
+
+
+newsgroups_train.data
+newsgroups_train.target
+newsgroups_train.target_names
+```
+

@@ -54,6 +54,11 @@ Because field of machine learning is changing rapidly, it is important to keep u
 - **Statistics**: [Book: OpenIntro Statistics](https://www.openintro.org/stat/textbook.php?stat_book=os)
 - **TensorFlow**: [Hvass-Labs Tutorial](https://github.com/Hvass-Labs/TensorFlow-Tutorials)
 
+### 2019 Additions 
+
+- **Tensorflow 2.0**: 
+ - [Intro to Tensorflow by Udacity](https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187?bsft_eid=38c5e74b-2e0e-0d60-26f8-dc6003c91c16&utm_campaign=acq_600_2019-03-06_ud187_launch_na&utm_source=blueshift&utm_medium=email&bsft_clkid=b862e378-12a2-456b-b58c-1729d49705ea&bsft_uid=8d740234-2f19-435f-80c4-9a3739b90bd3&bsft_mid=1fa5e461-21fd-417b-b921-5f7888392741) 
+ - [Intro to Tensorflow by DeepLearning.ai](https://www.coursera.org/learn/introduction-tensorflow#utm_source=email&utm_medium=dl.aiGeneralListCTA&utm_campaign=TFSC1Announcement)
 
 ### Optional
 

@@ -9,3 +9,7 @@
 ## Google Sheet API 
 - https://developers.google.com/sheets/api/quickstart/python
 
+## Hierarchical Softmax 
+
+- https://www.quora.com/What-is-hierarchical-softmax
+- https://ai.googleblog.com/2016/05/chat-smarter-with-allo.html
