@@ -1,11 +1,26 @@
-# Stanford CS224n - Natural Language Processing with Deep Learning (Winter 2018 Version)
+# Stanford CS224n - Natural Language Processing with Deep Learning 
 
-## Links 
+### Links
 
-- Main Page: [http://web.stanford.edu/class/cs224n/](http://web.stanford.edu/class/cs224n/)
+Shows Winter 2019 content as of April 2019. 
+
+- [Main Page](http://web.stanford.edu/class/cs224n/)
+- [Syllabus](http://web.stanford.edu/class/cs224n/index.html#schedule)
+- [Lecture Video List](http://onlinehub.stanford.edu/cs224)
+
+## Winter 2019 Version
+
+### Lectures 
+
+- [2019 Winter Vers: Lecture 6 - Language Models and RNN](https://www.youtube.com/watch?time_continue=36&v=eTORAx_FKsM)
+
+## Winter 2018 Version
+
+### Links 
+
 - Syllabus for Winter 2018: [https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1184/syllabus.html](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1184/syllabus.html)
 
-## Lectures
+### Lectures
 
 - [YouTube Lecture Collection (Winter 2017)](https://www.youtube.com/playlist?list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6)
 - [Lecture 1 - Intro](https://www.youtube.com/watch?v=OQQ-W_63UgQ&t=0s&list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6&index=2)
@@ -17,3 +32,4 @@
 - [Lecture 4 - Word Window Classification and Neural Networks](https://www.youtube.com/watch?v=uc2_iwVqrRI&list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6&index=4)
 - [5](https://www.youtube.com/watch?v=isPiE-DBagM&index=5&list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6)
 - [Lecture 6 - Dependency Parsing](https://www.youtube.com/watch?v=PVShkZgXznc&index=6&list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6)
+

@@ -1,5 +1,7 @@
 # Research Paper 
 
+Collection of Readings and Research Papers 
+
 References: 
 
 - https://towardsdatascience.com/getting-started-with-reading-deep-learning-research-papers-the-why-and-the-how-dfd1ac15dbc0
@@ -8,7 +10,9 @@ References:
 
 
 ## 2019 
-- [OpenAI - Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
+
+- [Blog: A Recipe for Training Neural Networks](http://karpathy.github.io/2019/04/25/recipe/)
+- [OpenAI - GPT2: Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
 
 ## 2018
 

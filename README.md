@@ -10,17 +10,19 @@ All codes related to programming, [machine learning](https://en.wikipedia.org/wi
 
 I make most frequent updates to the folders with * sign. Happy learning! 
  
-## Raspberry Pi Projects 
-- **PiNest**
-  - Demo Link: [https://youtu.be/vsZC-V8orcY](https://youtu.be/vsZC-V8orcY)
-  - Initial stage: [https://youtu.be/lN0iA-JdOf0](https://youtu.be/lN0iA-JdOf0)
-  - Using Amazon Dash as a Camera Switch: (to be uploaded)
-- **Amazon Dash Hack**: (to be uploaded)
-
 ## Go Watch 
-- **MarI/O**: https://www.youtube.com/watch?v=qv6UVOQ0F44&t=1s
-- **MarioFlow**: https://www.youtube.com/watch?v=Ipi40cb_RsI
-- **AlphaGo Zero**: https://www.youtube.com/watch?v=tXlM99xPQC8
+
+Here I want to add interesting videos I've watched. 
+
+- [**2019 Rework - Advancing State-of-the-art Image Recognition with Deep Learning on Hashtags**](http://videos.re-work.co/videos/1332-advancing-state-of-the-art-image-recognition-with-deep-learning-on-hashtags)
+- [**2019 Rework - Go-Explore: A New Type of Algorithm for Hard-exploration Problems**](http://videos.re-work.co/videos/1369-go-explore-a-new-type-of-algorithm-for-hard-exploration-problems)
+- [**MarI/O**](https://www.youtube.com/watch?v=qv6UVOQ0F44&t=1s), [**MarioFlow**](https://www.youtube.com/watch?v=Ipi40cb_RsI)
+- [**AlphaGo Zero**](https://www.youtube.com/watch?v=tXlM99xPQC8)
+
+
+## Go Read 
+
+- [2019 OpenAI GPT-2](https://openai.com/blog/better-language-models/)
 
 ## Never Stop Learning 
 
@@ -63,3 +65,10 @@ Because field of machine learning is changing rapidly, it is important to keep u
 ### Optional
 
 - **Udacity's AB Testing** 
+
+## Raspberry Pi Projects 
+- **PiNest**
+  - Demo Link: [https://youtu.be/vsZC-V8orcY](https://youtu.be/vsZC-V8orcY)
+  - Initial stage: [https://youtu.be/lN0iA-JdOf0](https://youtu.be/lN0iA-JdOf0)
+  - Using Amazon Dash as a Camera Switch: (to be uploaded)
+- **Amazon Dash Hack**: (to be uploaded)
