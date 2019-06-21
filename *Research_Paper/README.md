@@ -8,11 +8,11 @@ References:
 - https://arxiv.org
 - https://scholar.google.es/citations?view_op=top_venues&hl=en&vq=eng_artificialintelligence
 
-
 ## 2019 
 
 - [Blog: A Recipe for Training Neural Networks](http://karpathy.github.io/2019/04/25/recipe/)
 - [OpenAI - GPT2: Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
+- [Blog: Text-based Editing of Talking-head Video](https://www.ohadf.com/projects/text-based-editing/?utm_source=social&utm_medium=twitter&utm_campaign=ExternalTechRecJune132019), [Paper](https://www.ohadf.com/projects/text-based-editing/data/text-based-editing.pdf)
 
 ## 2018
 
