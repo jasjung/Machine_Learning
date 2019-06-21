@@ -1,6 +1,13 @@
-# Virtual Env 
+# Virtual Environment
 
-[https://www.youtube.com/watch?v=N5vscPTWKOk](https://www.youtube.com/watch?v=N5vscPTWKOk)
+Reference 
+
+- [https://www.youtube.com/watch?v=N5vscPTWKOk](https://www.youtube.com/watch?v=N5vscPTWKOk)
+- https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe
+
+current verdict: virtualenv > venv
+
+## Virtualenv 
 
 ```
 pip install virtualenv
@@ -37,7 +44,6 @@ deactivate
 rm -rf project1_env
 ```
 
-
 ### Stage 2 
 
 ```
@@ -57,7 +63,10 @@ pip install -r requirements.txt
 pip list
 ```
 
+## Venv (2019-06-07 Update)
 
+Since Python 3.3, a subset of virtualenv has been integrated in the Python standard library under the venv module. For Python >= 3.3, you can create a virtual environment with:
 
-
-
+```py 
+python -m venv myvenv
+```

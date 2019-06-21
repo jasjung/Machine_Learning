@@ -32,5 +32,4 @@ for i in range(len(df)):
 	print('completed: %s' % (i/len(df)*100),flush=True,end='\r')  
 
 	# ... 
-
 ```

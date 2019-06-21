@@ -3,7 +3,6 @@
 Reference: 
 
 - micro_macro_averaging: [https://datascience.stackexchange.com/questions/15989/micro-average-vs-macro-average-performance-in-a-multiclass-classification-settin](https://datascience.stackexchange.com/questions/15989/micro-average-vs-macro-average-performance-in-a-multiclass-classification-settin)
-- [http://rushdishams.blogspot.com/2011/08/micro-and-macro-average-of-precision.html](http://rushdishams.blogspot.com/2011/08/micro-and-macro-average-of-precision.html)
 
 Notes 
 
@@ -12,3 +11,8 @@ Notes
 - Micro: Weighted averaging
 
 
+### Error 
+
+- dealing with f1score error: https://stackoverflow.com/questions/43162506/undefinedmetricwarning-f-score-is-ill-defined-and-being-set-to-0-0-in-labels-wi
+
+`UndefinedMetricWarning: No positive samples in y_true, true positive value should be meaningless`

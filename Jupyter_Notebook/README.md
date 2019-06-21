@@ -24,6 +24,11 @@ If your notebook gives you error "IOPub data rate exceeded", try:
 <img src="images/image2.jpeg"  style="width:400px;">
 ```
 
+```py 
+from IPython.display import Image
+Image(filename='test.png') 
+```
+
 ## Red Font 
 ```
 <span style="color:red">some **This is Red Bold.** text</span>

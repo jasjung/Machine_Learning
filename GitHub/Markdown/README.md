@@ -78,3 +78,23 @@ Reference:
   <img src="http://s.4cdn.org/image/title/105.gif">
 </p>
 ```
+
+
+## Bullet Points 
+
+https://stackoverflow.com/questions/47344571/how-to-draw-checkbox-or-tick-mark-in-github-markdown-table
+
+- [x] one 
+- [ ] two 
+
+or 
+
+- checked: `&#9744;` &#9744;  
+- unchecked `&#9745;` &#9745;
+
+or the actual character 
+
+- ☐
+- ☑
+
+
