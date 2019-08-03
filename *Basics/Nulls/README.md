@@ -54,4 +54,8 @@ np.all(np.isfinite(mat))
 df[df.isnull().any(axis=1)]
 
 df.isnull().sum()
+
+# filter it out 
+df[~df.isnull().any(axis=1)]
 ```
+ 

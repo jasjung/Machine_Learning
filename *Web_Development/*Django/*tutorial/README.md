@@ -49,7 +49,7 @@ Whole-Sha-Bang
 django-admin startproject mysite
 # test 
 python manage.py runserver
-# creat polls app 
+# create polls app 
 python manage.py startapp polls
 # create file 
 touch polls/urls.py

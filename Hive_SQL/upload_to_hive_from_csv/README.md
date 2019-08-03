@@ -27,7 +27,6 @@ set hive.exec.dynamic.partition.mode=nonstrict;
 LOAD DATA LOCAL INPATH 'your_file_path' OVERWRITE INTO TABLE jason.table;
 ```
 
-
 ### With Partition 
 
 - https://stackoverflow.com/questions/45214291/loading-in-path-file-to-a-partitioned-table
@@ -35,4 +34,10 @@ LOAD DATA LOCAL INPATH 'your_file_path' OVERWRITE INTO TABLE jason.table;
 
 ```sql 
 LOAD DATA LOCAL INPATH [your_file.csv] OVERWRITE INTO TABLE your.table PARTITION([partition_name]=[partition_value]);
+```
+
+### Give csv files contain header, you want to skip first line 
+
+```sql
+tblproperties("skip.header.line.count"="1"); 
 ```

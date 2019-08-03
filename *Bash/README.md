@@ -28,9 +28,6 @@ Reference
 ## Server Trikcs 
 - `hostname`: to see the current server host name 
 
-## SCP 
-- `scp file_to_trasnfer.txt servername:/home/username/location_to_transfer` 
-
 ## Hadoop 
 - `hadoop fs -du -h`: folder size in human readable format 
 - `hdfs dfs -du -s -h /user/[user_name]`: find out how much data in the user's folder

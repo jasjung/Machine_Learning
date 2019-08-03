@@ -8,7 +8,7 @@ Reference:
 
 ## Center Image with Border and Caption 
 
-### EX1
+### EX1 - Github (other methods don't show up for github)
 
 <p align="center">
  <kbd><img src="images/img.png" width="300"></kbd>

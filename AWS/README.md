@@ -1,5 +1,9 @@
 # How to Train on AWS GPU 
 
+References: 
+
+- [SagaMaker SDK](https://sagemaker.readthedocs.io/en/stable/index.html)
+
 ## Install 
 
 ```
