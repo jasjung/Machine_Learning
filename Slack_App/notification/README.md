@@ -35,8 +35,8 @@ If you are running a process that takes a long time, it is often important to be
 	```
 	curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' YOUR_WEBHOOK_URL_HERE"
 	```
-This is the command you can run from anywhere like your terminal and it will send you a slack notification! Check the demo video of how I use this. 
-![img](imgs/7.png)
+	This is the command you can run from anywhere like your terminal and it will send you a slack notification! Check the demo video of how I use this. 
+	![img](imgs/7.png)
 
 8. Here is a Python example: 
 
