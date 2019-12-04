@@ -1,0 +1,64 @@
+apiVersion: kubeflow.org/v1alpha1
+kind: MPIJob
+metadata:
+  name: eks-tf-distributed-training
+spec:
+  replicas: 2
+  template:
+    metadata: 
+      annotations:
+        sidecar.istio.io/inject: "false"
+    spec:
+      restartPolicy: Never
+      containers:
+      - name: eks-tf-dist-job
+        image: 453691756499.dkr.ecr.us-west-2.amazonaws.com/tfworld2019:latest
+        env:
+        - name: HDF5_USE_FILE_LOCKING
+          value: 'FALSE'
+        command:
+        - mpirun
+        - --allow-run-as-root
+        - -mca
+        - btl_tcp_if_exclude
+        - lo
+        - -mca
+        - pml
+        - ob1
+        - -mca
+        - btl
+        - ^openib
+        - --bind-to
+        - none
+        - -map-by
+        - slot
+        - -x
+        - LD_LIBRARY_PATH
+        - -x
+        - PATH
+        - -x
+        - NCCL_DEBUG=INFO
+        - python
+        - cifar10-multi-gpu-horovod.py
+        - --epochs=30
+        - --learning-rate=0.01
+        - --batch-size=256
+        - --weight-decay=0.0002
+        - --momentum=0.9
+        - --optimizer=sgd
+        - --train=/training-data/cifar10-dataset/train
+        - --eval=/training-data/cifar10-dataset/eval
+        - --validation=/training-data/cifar10-dataset/validation
+        - --model_dir=/training-data/eks-output
+        - --output_data_dir=/training-data/eks-output
+        - --tensorboard_dir=/training-data/eks-output
+        resources:
+          limits:
+            nvidia.com/gpu: 1
+        volumeMounts:
+        - mountPath: /training-data
+          name: persistent-storage
+      volumes:
+      - name: persistent-storage
+        persistentVolumeClaim:
+          claimName: fsx-claim
