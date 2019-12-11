@@ -128,7 +128,6 @@ To exclude duplicate files.
 ```
 find . -size +100M | sed 's|^\./||g' | cat >> .git/info/exclude; 
 sort -u -o .git/info/exclude .git/info/exclude  ;  head .git/info/exclude 
-
 ```
 
 The following did not work but shows the use case of `awk`

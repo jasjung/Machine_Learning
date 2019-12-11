@@ -3,12 +3,16 @@
 ![license MIT](https://img.shields.io/github/license/mashape/apistatus.svg)
 ![Python 3.6](https://img.shields.io/badge/python-3.6~3.7-blue.svg)
 ![Keras 2.2](https://img.shields.io/badge/keras-2.2-red.svg)
-![tensorflow 1.8](https://img.shields.io/badge/tensorflow-1.8~2.0-orange.svg)
+![tensorflow 1.8](https://img.shields.io/badge/tensorflow-1.14~2.0-orange.svg)
 ![spark 1.8](https://img.shields.io/badge/spark-2.1~2.3-yellow.svg)
+![sagemaker 1.14.0](https://img.shields.io/badge/sagemaker-1.45.0.dev0-green.svg)
+
 
 All codes related to software engineering, [machine learning](https://en.wikipedia.org/wiki/Machine_learning), artificial intelligence, and data science. I continuously update this repository to document my learnings for future references and to share the knowledge. Otherwise noted, I use Python3 on MacOS. 
 
+
 I make most frequent updates to the folders with * sign. Happy learning! 
+
 
 ## Directory
 

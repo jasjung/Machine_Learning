@@ -116,8 +116,8 @@ Three-step guide to making model changes:
 To invoke the Python shell, use this command:
 
 ```py 
-# gives Django the Python import path to your mysite/settings.py file.
-python manage.py shell
+# gives Django the Python import path to your mysite/settings.py file.python manage.py shell
+
 ```
 
 ### Introducing the Django Admin

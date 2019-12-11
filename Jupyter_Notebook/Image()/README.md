@@ -5,4 +5,10 @@ Need `display()` if you are trying to view the image while being called inside a
 ```py 
 from IPython.display import display, Image
 display(Image(filename=img_path,width='400px'))
+
+# or 
+from IPython.display import display, Image
+display(Image(filename=img_path,width=400))
 ```
+
+
