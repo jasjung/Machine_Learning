@@ -1,0 +1,32 @@
+{
+	"2020":[
+		{
+			"book":"think and grow rich"
+			,"amazon":"https://google.com"
+		}
+		,{
+			"book":"A Random Walk Down Wall Street"
+			,"amazon":"https://google.com"
+		}
+		,{
+			"book":"Rework"
+			,"amazon":"https://google.com"
+		}
+		,{
+			"book":"Stop Worrying and Start Living"
+			,"amazon":"https://google.com"
+		}
+	]
+
+	,"2019":[
+		{
+			"book":"think and grow rich"
+			,"amazon":"https://google.com"
+		}
+		,{
+			"book":"A Random Walk Down Wall Street"
+			,"amazon":"https://google.com"
+		}
+	]
+
+}
