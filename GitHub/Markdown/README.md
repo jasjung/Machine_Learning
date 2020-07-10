@@ -98,3 +98,6 @@ or the actual character
 - ☑
 
 
+## floating image and caption 
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss_float3

@@ -1,5 +1,6 @@
 # Tutorial 
 
+
 ## [Writing your first Django app, part 1](https://docs.djangoproject.com/en/2.2/intro/tutorial01/)
 
 Check version 

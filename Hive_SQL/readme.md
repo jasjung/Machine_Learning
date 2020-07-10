@@ -5,28 +5,17 @@
 ### Duplicate Column Name Issue
 - https://community.hortonworks.com/articles/43510/excluding-duplicate-key-columns-from-hive-using-re.html
 
-```
+```sql 
 set hive.support.quoted.identifiers=none;
 select t1.*, t2.`(shopper_id)?+.+` from t1,t2 ;
 ```
 
 ## Basics 
-### Drop or Create table 
-```
-# use orc or parquet 
 
-use user_name;
-drop table if exists user_name.table_name;
-create table user_name.table_name stored as orc as 
-```
-
-### Change table name 
-```
-ALTER TABLE user.old_name RENAME TO user.new_name;
-```
 
 ### Saving Hive Table from Command Line 
-```
+
+```sh 
 # use -f to run hive file 
 hive -e "select * from table;" > output.txt
 
@@ -35,7 +24,8 @@ hive -e "set hive.cli.print.header=true; select * from table;" > output.txt
 ```
 
 ### Show Column Names in Hive Command Line 
-```
+
+```sql 
 set hive.cli.print.header=true;
 -- hide col name
 set hive.cli.print.header=false;
@@ -63,8 +53,8 @@ where rand < 0.03
 ### Remove Table Name From Column Header 
 - Source: https://issues.apache.org/jira/browse/HIVE-14387
 
-```
-set hive.resultset.use.unique.column.names=false;
+```sql
+
 ```
 
 ### Split Row Into N Chunks 
@@ -149,7 +139,7 @@ ROW FORMAT DELIMITED
 ### Hive Config 
 https://stackoverflow.com/questions/8762064/hive-unable-to-manually-set-number-of-reducers
 
-```
+```sql
 <property>
    <name>hive.exec.reducers.bytes.per.reducer</name>
    <value>1000000</value>
@@ -192,21 +182,4 @@ date_sub()
 
 ```sql 
 percentile(cast(age as BIGINT), 0.5)
-```
-
-## Box plot 
-
-
-```sql 
-SELECT 
-	col1 
-	,min(col2) AS min
-	,percentile(col2, 0.25) AS Q1
-	,percentile(col2, 0.5) AS median
-	,avg(col2) AS avg
-	,percentile(col2, 0.75) AS Q3
-	,max(col2) AS max
-		
-FROM table
-GROUP BY col1;
 ```

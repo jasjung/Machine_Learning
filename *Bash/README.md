@@ -15,15 +15,6 @@ Reference
 - `tail -f log.log`: view live update of the log file. 
 - `ls -l --block-size=G`: view file size 
 
-## Screen Function 
-- Source: https://linode.com/docs/networking/ssh/using-gnu-screen-to-manage-persistent-terminal-sessions/
-- type `screen` to start persistent terminal sessions 
-- to exit, press `cntrl + a + d`
-- to return to the latest screen session, type `screen -r`
-- type `screen -ls` to see list of screen sessions
-- press `control + a ` then type `:quit` to quit the screen session while you are in the session. 
-- `killall SCREEN` to kill all screens 
-- reattach: `screen -r <session_id>`
 
 ## Server Trikcs 
 - `hostname`: to see the current server host name 

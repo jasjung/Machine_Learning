@@ -1,5 +1,9 @@
 # Matplotlib
 
+```py 
+import matplotlib.pyplot as plt
+```
+
 ### Stlye 
 
 ```py 

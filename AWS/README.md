@@ -3,6 +3,7 @@
 References: 
 
 - [SagaMaker SDK](https://sagemaker.readthedocs.io/en/stable/index.html)
+- [CLI User Setup](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
 
 ## Install 
 
@@ -11,6 +12,16 @@ pip install awscli --upgrade --user
 ```
 https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
 
+
+## Configure 
+
+```sh 
+$ aws configure
+AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
+AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+Default region name [None]: us-west-2
+Default output format [None]: json
+```
 
 ## AWS ML Training
 

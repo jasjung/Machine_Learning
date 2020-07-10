@@ -14,3 +14,7 @@ https://youtu.be/9JpdAg6uMXs
 - https://www.kdnuggets.com/2017/11/generative-adversarial-networks-part2.html
 - https://machinelearningmastery.com/how-to-develop-a-conditional-generative-adversarial-network-from-scratch/ -> cGAN tutorial
 
+
+Example of Keras GANs with ImageGenerator 
+
+- https://github.com/Goldesel23/DCGAN-for-Bird-Generation/blob/master/traindcgan.py

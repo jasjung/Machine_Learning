@@ -104,3 +104,44 @@ ref: https://github.com/hemangsk/Gravity/issues/1
 
 https://jekyllrb.com/docs/permalinks/
 
+
+## Other 
+
+```
+sudo gem install bundler
+sudo bundle install
+sudo bundle update 
+bundle exec jekyll serve 
+```
+
+### listen to changes while developing 
+
+```sh 
+sudo gem install listen
+sudo gem install guard
+```
+
+### update ruby 
+
+```sh 
+ruby -v
+brew install ruby
+brew upgrade ruby
+```
+
+### stop entering pw when editing jekyll files 
+
+```sh 
+sudo chmod 774 new_site 
+sudo chmod 774 Gemfile
+sudo chmod 774 _config.yml
+
+```
+
+## update jekyll 
+
+```sh 
+bundle update jekyll
+```
+
+sudo bundle exec jekyll serve --watch --force_polling

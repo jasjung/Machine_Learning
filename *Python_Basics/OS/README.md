@@ -31,3 +31,15 @@ output = subprocess.check_output("ls data".split(),universal_newlines=True)
 # output = subprocess.check_output(['ls','data'],universal_newlines=True)
 output.split()
 ```
+
+## Recursive list dir 
+
+https://www.bogotobogo.com/python/python_traversing_directory_tree_recursively_os_walk.php
+
+```py 
+import os
+path = "./TEST"
+
+for root,d_names,f_names in os.walk(path):
+	print root, d_names, f_names
+```

@@ -55,7 +55,7 @@ driver.quit()
 
 ### Installation 
 
-```
+```sh 
 pip install splinter
 brew install geckodriver
 pip install Pillow
@@ -64,12 +64,14 @@ brew cask install chromedriver
 
 ### Example 
 
+
 ```py 
 browser = Browser()
 screenshot_path = browser.screenshot('absolute_path/your_screenshot.png', full=True)
 
 browser.driver.save_screenshot('test.png')
 ```
+
 
 ```py 
 from splinter import Browser
@@ -88,3 +90,13 @@ with Browser() as browser:
     else:
         print("No, it wasn't found... We need to improve our SEO techniques")
 ```
+
+
+## 2020 update 
+
+Google 
+
+```sh 
+chrome --headless --disable-gpu --screenshot --window-size=1280,1696 https://www.chromestatus.com/
+```
+

@@ -1,5 +1,7 @@
 # Ensemble Trees 
 
+Tree from scratch: https://machinelearningmastery.com/implement-decision-tree-algorithm-scratch-python/
+
 ## Random Forest 
 
 - https://towardsdatascience.com/random-forest-in-python-24d0893d51c0

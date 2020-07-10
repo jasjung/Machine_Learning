@@ -7,5 +7,6 @@
 
 ## Lectures 
 
-- [Lecture 1 - Intro](https://www.youtube.com/watch?v=FgzM3zpZ55o)
-
+[√] [Lecture 1 - Intro](https://www.youtube.com/watch?v=FgzM3zpZ55o)
+[] [Lecture 2 - Given a Model of the World](https://www.youtube.com/watch?v=E3f2Camj0Is)
+ - 34:37 

@@ -48,6 +48,7 @@ Here, I add interesting videos I've watched.
 
 Because field of machine learning is changing rapidly, it is important to keep up with new techniques and constantly learn. Good thing is that there is so much information online but it is easy to get lost. Here, I want to document some useful online resources or tips. I put mostly free resources. 
 
+
 ### Stay Up To Date: 
 
 - **Tensorflow 2.0**: [Official Documentation](https://www.tensorflow.org/alpha), [Tensorflow by Udacity](https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187?bsft_eid=38c5e74b-2e0e-0d60-26f8-dc6003c91c16&utm_campaign=acq_600_2019-03-06_ud187_launch_na&utm_source=blueshift&utm_medium=email&bsft_clkid=b862e378-12a2-456b-b58c-1729d49705ea&bsft_uid=8d740234-2f19-435f-80c4-9a3739b90bd3&bsft_mid=1fa5e461-21fd-417b-b921-5f7888392741), [Tensorflow by DeepLearning.ai](https://www.coursera.org/learn/introduction-tensorflow#utm_source=email&utm_medium=dl.aiGeneralListCTA&utm_campaign=TFSC1Announcement)
@@ -60,6 +61,7 @@ Because field of machine learning is changing rapidly, it is important to keep u
 - **Python Basics**: [Stanford CS231n - Python](http://cs231n.github.io/python-numpy-tutorial/)
 - **SQL**: You can learn this on the job but you should know some basics for interview. 
 - Mathematics: Khan Academy's Linear Algebra 
+- [Computer Science Crash Course by CrashCourse on YouTube](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
 
 ### Intermediate
 
@@ -67,11 +69,13 @@ Because field of machine learning is changing rapidly, it is important to keep u
 - **Deep Learning**: [DeepLearning.ai](https://deeplearning.ai), [fast.ai](https://fast.ai), [theschool.ai](https://theschool.ai)
 - Hadoop, Spark, Distributed Computing. 
 
+
 ### Advanced (or more in depth)
 
 - **Stanford's AI courses**: [ai.stanford.edu/courses](http://ai.stanford.edu/courses/)
 - **Computer Vision**: [Stanford CS231n Home](http://cs231n.stanford.edu)
 - **Reinforcement Learning**: [theschool.ai: move37](https://www.theschool.ai/courses/move-37-course/), [OpenAI](https://gym.openai.com)
+
 
 ### Textbooks / Reading 
 
@@ -80,6 +84,14 @@ Because field of machine learning is changing rapidly, it is important to keep u
 - **Statistics and Machine Learning**: [Book: Intro to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/)
 - **Statistics**: [Book: OpenIntro Statistics](https://www.openintro.org/stat/textbook.php?stat_book=os)
 - **TensorFlow**: [Hvass-Labs Tutorial](https://github.com/Hvass-Labs/TensorFlow-Tutorials)
+
+
+### Interview 
+
+- **Data Structures and Algorithms**:
+ - [CS Dojo YouTube Playlist](https://goo.gl/wy3CWF) 
+ - [The Google course on Udacity](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513)
+
 
 ### Optional
 
