@@ -1,0 +1,12 @@
+    1  curl -sL https://s3.amazonaws.com/ddb-deep-dive/dynamodb.tar | tar -xv
+    2  sudo pip install boto3
+    3  python create_table.py
+    4   python insert_items.py
+    5  python get_item.py
+    6  python query_items.py
+    7  python add_secondary_index.py
+    8  python query_with_index.py
+    9  python update_item.py
+   10  python delete_table.py
+   11  history
+   12  history > history.txt
