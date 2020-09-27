@@ -8,4 +8,14 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
-.ipynb_checkpoints 
+.ipynb_checkpoints                     
+
+.Rapp.history
+.Rhistory
+
+spark-warehouse*
+__pycache__
+*.pyc 
+*.RData
+
+do_not_upload

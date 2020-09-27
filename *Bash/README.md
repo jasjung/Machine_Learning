@@ -56,7 +56,7 @@ Second arg: world
 history -c
 
 # Clear all bash history
-rm ~/.bash_history
+rm ~/.bash_history # or rm ~/.zsh_history
 
 # Open the history file
 open ~/.bash_history

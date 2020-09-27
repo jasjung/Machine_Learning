@@ -9,9 +9,9 @@ credit: https://www.ostechnix.com/find-size-directory-linux/
 to see a directory's disk usuage. 
 
 ```sh
-# 
+# for your current directory 
 du -sh 
-# 
+# choose a specific directory 
 du -sh <your directory> 
 # 1G	<your directory>/
 ```

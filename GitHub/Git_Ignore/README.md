@@ -1,21 +1,29 @@
-
 # Git Ignore
-Source: https://help.github.com/articles/ignoring-files/
+
+- https://help.github.com/articles/ignoring-files/
+- https://gist.github.com/subfuzion/db7f57fff2fb6998a16c
+
 
 ## Global 
 
 Run the following command to create .gitignore_global file 
 
-```
-git config --global core.excludesfile ~/.gitignore_global
+```sh 
+# past 
+# git config --global core.excludesfile ~/.gitignore_global
+# vi ~/.gitignore_global
 
-vi .gitignore_global
+# new 
+git config --global core.excludesfile ~/.gitignore
+vi ~/.gitignore
 ```
 
 add the following into the .gitignore_global or .gitignore: 
 
+
 ### Examples 
-```
+
+```sh 
 .DS_Store
 .DS_Store?
 ._*
@@ -31,13 +39,16 @@ __pycache__
 *.pyc
 *.RData
 ```
+
 ## Local 
-```
+
+```sh 
 touch .gitignore
 vi .gitignore
 ```
 
 ## Git Ignore Caches 
+
 - https://stackoverflow.com/questions/1139762/ignore-files-that-have-already-been-committed-to-a-git-repository
 
 ```
@@ -47,6 +58,7 @@ git commit -m ".gitignore is now working"
 ```
 
 # Deleting hidden files recrusively
+
 Source: https://jonbellah.com/articles/recursively-remove-ds-store/
 
 - cd to/your/directory

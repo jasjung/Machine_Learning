@@ -10,6 +10,10 @@ automatically, run these commands on the command line.
 - vi .bash_profile
 # add this line and save
 - export BROWSER=open
+
+# add for alias 
+alias jp='jupyter notebook'
+alias jl='jupyter lab'
 ``` 
 Now you should be good to go. 
 

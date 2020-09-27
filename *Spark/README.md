@@ -16,7 +16,7 @@ This method works. However, `findspark` function was not working as I wanted. Se
 
 Reference: [Click Here](https://medium.freecodecamp.org/installing-scala-and-apache-spark-on-mac-os-837ae57d283f)
 
-```
+```sh 
 # install java 
 brew cask install java
 
