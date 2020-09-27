@@ -37,6 +37,7 @@ vi ~/.zshrc
 
 When I swtiched to zsh, it had trouble accessing jupyter notebook. FYI, my jupyter was installed via conda. This is what I did the fix: 
 
+
 1. copy some files from bash_profile 
 
 	```sh 
@@ -48,7 +49,10 @@ When I swtiched to zsh, it had trouble accessing jupyter notebook. FYI, my jupyt
 	```sh 
 	alias jp='jupyter notebook'
 	# added by Anaconda3 5.0.1 installer
-	export PATH="/Users/ijung/anaconda3/bin:$PATH"
+	# old 
+	# export PATH="/Users/<your_user_name>/anaconda3/bin:$PATH"
+	# new
+	export PATH="/Users/<your_user_name>/opt/anaconda3/bin:$PATH"
 	```
 
 2. Copy them and them at the end of `vi ~/.zshrc` file. 
