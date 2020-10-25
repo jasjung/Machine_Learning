@@ -1,10 +1,11 @@
-# SageMaker Keras Training and Deploying
+# SageMaker Pretrained Keras Model Deploying
 
 ![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)
 ![Keras 2.2.4-tf](https://img.shields.io/badge/keras-2.2.4.tf-red.svg)
 ![tensorflow 1.14.0](https://img.shields.io/badge/tensorflow-1.14.0-orange.svg)
 ![sagemaker 1.14.0](https://img.shields.io/badge/sagemaker-1.45.0.dev0-green.svg)
 
+Refer to v1 or v2 directories for detailed code. 
 
 Sadly, AWS documentation is all over the place and not very consistent. It is not often general enough. I had run into issues while I was trying to train and deploy a keras model. Following their documentation kept giving me errors. And, at last, I got it to work. 
 
@@ -14,6 +15,11 @@ Sadly, AWS documentation is all over the place and not very consistent. It is no
 - https://towardsdatascience.com/deploying-keras-models-using-tensorflow-serving-and-flask-508ba00f1037
 - https://stackoverflow.com/questions/57172147/no-savedmodel-bundles-found-on-tensorflow-hub-model-deployment-to-aws-sagemak
 - https://aws.amazon.com/blogs/machine-learning/deploy-trained-keras-or-tensorflow-models-using-amazon-sagemaker/
+
+Convert Keras Model to SageMaker Model
+
+- https://aws.amazon.com/blogs/machine-learning/deploy-trained-keras-or-tensorflow-models-using-amazon-sagemaker/
+- https://machinelearningmastery.com/save-load-keras-deep-learning-models/
 
 
 ### Advice
@@ -29,4 +35,14 @@ Sadly, AWS documentation is all over the place and not very consistent. It is no
 - `Could not find base path /opt/ml/model/export/Servo for servable generic_model`
 
 
+## Graph 
 
+https://stackoverflow.com/questions/48772761/attempting-to-use-uninitialized-value-variable-tensorflow-python
+
+```py
+# Sometimes you need to put session inside graph 
+import tensorflow as tf
+with tf.Graph().as_default():
+    sess = tf.Session()
+    ...
+```

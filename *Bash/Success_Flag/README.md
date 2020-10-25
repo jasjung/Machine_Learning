@@ -14,7 +14,7 @@
 ```
 ↓
 
-```
+```sh
 # Check the exit status
 
 cd $some_directory
@@ -27,7 +27,7 @@ fi
 ```
 ↓
 
-```
+```sh
 # A better way
 
 if cd $some_directory; then
@@ -41,7 +41,7 @@ fi
 
 ## Error Exit Function 
 
-```
+```sh 
 # An error exit function
 
 error_exit()
@@ -64,12 +64,12 @@ fi
 
 command2 is executed if, and only if, command1 returns an exit status of zero.
 
-```
+```sh 
 command1 && command2
 ```
 
 command2 is executed if, and only if, command1 returns a non-zero exit status.
 
-```
+```sh 
 command1 || command2
 ```
