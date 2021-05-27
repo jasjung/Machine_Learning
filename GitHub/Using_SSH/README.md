@@ -11,6 +11,17 @@ https://stackoverflow.com/questions/14762034/push-to-github-without-a-password-u
 git remote set-url origin git@github.com:<Username>/<Project>.git
 ```
 
+If you have upstream, might need to remove it and add it again.
+
+```sh
+# to see if you have upstream 
+git remote -v
+# remove 
+git remote rm upstream
+# add 
+git remote add upstream git@github.com:<Username>/<Project>.git
+```
+
 ### Generate new ssh key for Mac 
 
 - https://docs.github.com/en/enterprise-server@2.21/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key

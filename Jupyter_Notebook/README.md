@@ -7,14 +7,17 @@ automatically, run these commands on the command line.
 # list all files 
 - ls -a 
 # edit this file 
-- vi .bash_profile
-# add this line and save
-- export BROWSER=open
+# - vi .bash_profile
+# for newer macs 
+- vi .zshrc
 
+# add this line and save 
+export BROWSER=open
 # add for alias 
 alias jp='jupyter notebook'
 alias jl='jupyter lab'
 ``` 
+
 Now you should be good to go. 
 
 reference: https://medium.com/@GalarnykMichael/install-spark-on-mac-pyspark-453f395f240b

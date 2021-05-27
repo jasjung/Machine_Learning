@@ -39,14 +39,14 @@ Here, I add interesting videos I've watched.
 - [**MarI/O**](https://www.youtube.com/watch?v=qv6UVOQ0F44&t=1s), [**MarioFlow**](https://www.youtube.com/watch?v=Ipi40cb_RsI)
 - [**AlphaGo Zero**](https://www.youtube.com/watch?v=tXlM99xPQC8)
 
-## Go Read 
-
-- [2019 OpenAI GPT-2](https://openai.com/blog/better-language-models/)
-
 
 ## Never Stop Learning 
 
 Because field of machine learning is changing rapidly, it is important to keep up with new techniques and constantly learn. Good thing is that there is so much information online but it is easy to get lost. Here, I want to document some useful online resources or tips. I put mostly free resources. 
+
+I've been really enjoying a site called StatQuest recently. I find the videos to be perfect length and entertaining to watch. It explains so many statistical and machine learning concepts well. Check it out! 
+
+[**STATQUEST**](https://statquest.org/video-index/)
 
 
 ### Stay Up To Date: 

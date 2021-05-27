@@ -4,6 +4,7 @@ https://www.howtogeek.com/362409/what-is-zsh-and-why-should-you-use-it-instead-o
 
 "ZSH, also called the Z shell, is an extended version of the Bourne Shell (sh), with plenty of new features, and support for plugins and themes. Since it’s based on the same shell as Bash, ZSH has many of the same features, and switching over is a breeze."
 
+
 ## Oh My ZSH 
 
 https://ohmyz.sh/#install
@@ -59,10 +60,16 @@ When I swtiched to zsh, it had trouble accessing jupyter notebook. FYI, my jupyt
 3. Run `source ~/.zshrc` command. 
 4. It worked! 
 
+
+### `BASE` issue  
+
 https://www.reddit.com/r/zsh/comments/9koj2v/help_im_not_sure_why_my_prompt_says_base/
 
 It base show `base` in your terminal. to hide: 
-```conda config --set changeps1 False```
+
+```sh 
+conda config --set changeps1 False
+```
 
 
 

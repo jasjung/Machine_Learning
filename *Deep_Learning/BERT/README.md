@@ -4,7 +4,7 @@
 - https://towardsml.com/2019/09/17/bert-explained-a-complete-guide-with-theory-and-tutorial/
 - Attention Youtube Tutorial in Korean: https://www.youtube.com/watch?v=mxGCEWOxfe8
 - https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270
-
+- https://www.analyticsvidhya.com/blog/2019/09/demystifying-bert-groundbreaking-nlp-framework/
 
 Key points 
 
