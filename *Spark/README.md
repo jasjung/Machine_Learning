@@ -1,6 +1,26 @@
 # Spark 
 
+
 ## Installation
+
+
+### Updated (2021-06-07)
+
+Much simpler now. 
+
+```sh 
+# install 
+pip install pyspark 
+```
+
+```py
+import pyspark 
+from pyspark import SparkContext
+sc = SparkContext()
+sc.parallelize(range(10)).collect()
+# [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+
 
 ### Method 1 (Use Method 2)
 
