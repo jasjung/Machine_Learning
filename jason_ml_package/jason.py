@@ -24,11 +24,11 @@ def flat_list(L):
     return [i for sublist in L for i in sublist]
 
 
-def slack_done(msg='Hello, your program finished running!'):
+def slack_done(msg='Hello, your program finished running!',url_hook):
     os.system("""
         curl -X POST -H 'Content-type: application/json' --data '{\"text\":\"%s\"}' \
-        https://hooks.slack.com/services/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
-        """ % msg)
+        https://hooks.slack.com/services/%s}
+        """ % (msg,url_hook))
     print('sent slack notification')
 
 
