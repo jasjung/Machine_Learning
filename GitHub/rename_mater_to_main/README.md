@@ -10,4 +10,11 @@ git checkout master
 
 # Rename it to "main":
 git branch -m master main
+
+git push -u origin main
+
+# go to settings in the web to make default branch as main
+
+# delete master branch
+git push origin :master
 ```
