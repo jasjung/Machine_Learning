@@ -10,3 +10,10 @@ To lock the screen:
 - `xscreensaver &`
 - `xscreensaver-command -lock`
 
+### lock shortcut 
+
+```sh 
+echo "alias lock=\"xscreensaver-command -lock\"" >> .bashrc
+```
+
+Then simply type `lock` in terminal to lock screen 
